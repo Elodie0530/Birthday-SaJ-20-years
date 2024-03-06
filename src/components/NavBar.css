@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-background-color: gray;
+  background-color: gray;
 }
 
 .liste {
@@ -21,6 +21,8 @@ background-color: gray;
 
 .items {
   /* background-color: red; */
+  color: beige;
+  text-decoration: none;
   display: flex;
   align-content: space-between;
   padding: 5px;
@@ -28,5 +30,5 @@ background-color: gray;
 }
 
 .logo {
-  width: 10rem;
+  width: 5rem;
 }
