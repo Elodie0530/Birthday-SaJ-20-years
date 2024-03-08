@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Verdana";
+  src: url("../fonts/Verdana Ref.ttf") format("ttf");
+}
+
 body {
   background-color: aqua;
+  font-family: Verdana, sans-serif;
 }
 
 /* .navbar{
@@ -17,6 +23,7 @@ body {
   padding: 2rem;
   text-align: center;
   background-color: bisque;
+  font-size: 1em;
 }
 
 .count {
