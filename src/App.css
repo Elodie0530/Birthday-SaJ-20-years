@@ -26,6 +26,10 @@ body {
   font-size: 1em;
 }
 
+.posterWhiteNight {
+  width:20%;
+}
+
 .count {
   padding: 2em;
   background-color: yellowgreen;
