@@ -25,7 +25,8 @@ function NuitBlanche() {
               partenaires, en prenant une nouvelle forme, donc rendez-vous est
               donner pour la prochaine édition les 22 et 23 juin 2024.
             </p>
-            Retour en affiches et en chiffres sur les Conventions des années passées :
+            Retour en affiches et en chiffres sur les Conventions des années
+            passées :
           </p>
           <div>
             <img
@@ -111,7 +112,19 @@ function NuitBlanche() {
             </p>
           </div>
 
-          {/* image masque année 2020 covid pandémie nationale */}
+          <div>
+            <img
+              className="posterWhiteNight"
+              src={"src/assets/coronavirus_masque.png"}
+              alt="nuitblanche2020"
+            />
+            <p>
+              Dans l'année 2020, un virus respiratoire contagieux de la famille
+              des coronavirus<br></br> a fait des ravages en mettant le monde
+              entier à l'arrêt
+            </p>
+            <p>et de fait toutes les manifestations prévues</p>
+          </div>
 
           <div>
             <img
