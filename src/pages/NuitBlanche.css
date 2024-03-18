@@ -1,0 +1,39 @@
+.nuitBlanche {
+  h1 {
+    color: #c21449;
+  }
+
+  .intro {
+    p:nth-child(5) {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      padding-bottom: 2rem;
+    }
+  }
+
+  .posterWhiteNight {
+    width: 20%;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 7px 2px #1a1a1a;
+    border: solid 2px;
+    overflow: hidden;
+    transition: transform 0.4s;
+  }
+
+  .posterWhiteNight:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+  .nb2015, .nb2016, .nb2017, .nb2018, .nb2019, .nb2020, .nb2021, .nb2022, .nb2023 {
+    &:after {
+      content: "";
+      display: block;
+      background-color: #c21449;
+      margin: 3rem auto;
+      width: 50%;
+      height: 2px;
+    
+    }
+  }
+}

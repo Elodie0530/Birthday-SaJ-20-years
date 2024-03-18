@@ -9,26 +9,37 @@ function NuitBlanche() {
         <Navbar />
         <h1>La Convention `Nuit Blanche sur l'Alsace`</h1>
         <div>
-          <p>
-            Voici la Convention majeur de jeux de Rôles de La Sauce aux Jeux.
-          </p>
-          <p>
-            Principalement dans l'univers de Cthulhu (créer par Howard Phillips
-            Lovecraft), ainsi que l’histoire et la culture du Bas-Rhin. Avec des
-            scénarios spécialement constituer pour cette occasion.
+          <div className="intro">
+            <p>
+              Voici la Convention majeur de jeux de Rôles de La Sauce aux Jeux.
+            </p>
+            <p>
+              Principalement dans l'univers de Cthulhu (créer par Howard
+              Phillips Lovecraft), ainsi que l’histoire et la culture du
+              Bas-Rhin. Avec des scénarios spécialement constituer pour cette
+              occasion.
+            </p>
             <p>
               Cette convention gratuite sur inscription, existe depuis l'été
               2015 jusqu'à nos jours.
             </p>
             <p>
               Elle tend à évoluée et se diversifiée avec les associations
-              partenaires, en prenant une nouvelle forme, donc rendez-vous est
-              donner pour la prochaine édition les 22 et 23 juin 2024.
+              partenaires, en prenant une nouvelle forme ainsi qu'un nouveau
+              nom, donc rendez-vous est donner pour{" "}
+              <b>
+                la première édition de L'Escapade Nocturne les 22 et 23 juin
+                2024
+              </b>
+              .
             </p>
-            Retour en affiches et en chiffres sur les Conventions des années
-            passées :
-          </p>
-          <div>
+            <p>
+              Retour en affiches et en chiffres sur les Conventions des années
+              passées :
+            </p>
+          </div>
+          
+          <div className="nb2015">
             <img
               className="posterWhiteNight"
               src={"src/assets/2015_affiche_nuit_blanche.jpeg"}
@@ -43,7 +54,8 @@ function NuitBlanche() {
               la première édition
             </p>
           </div>
-          <div>
+
+          <div className="nb2016">
             <img
               className="posterWhiteNight"
               src={"src/assets/2016_affiche_nuit_blanche.jpeg"}
@@ -59,7 +71,8 @@ function NuitBlanche() {
               de Kintzheim” proposée par l'association des Tisseurs d'Etoiles
             </p>
           </div>
-          <div>
+
+          <div className="nb2017">
             <img
               className="posterWhiteNight"
               src={"src/assets/2017_affiche_nuit_blanche.jpeg"}
@@ -76,7 +89,8 @@ function NuitBlanche() {
               d'Etoiles
             </p>
           </div>
-          <div>
+
+          <div className="nb2018">
             <img
               className="posterWhiteNight"
               src={"src/assets/2018_affiche_nuit_blanche.jpeg"}
@@ -93,7 +107,8 @@ function NuitBlanche() {
               des animations costumées par l'association des ForgeMondes
             </p>
           </div>
-          <div>
+
+          <div className="nb2019">
             <img
               className="posterWhiteNight"
               src={"src/assets/2019_affiche_nuit_blanche.png"}
@@ -112,7 +127,7 @@ function NuitBlanche() {
             </p>
           </div>
 
-          <div>
+          <div className="nb2020">
             <img
               className="posterWhiteNight"
               src={"src/assets/coronavirus_masque.png"}
@@ -126,7 +141,7 @@ function NuitBlanche() {
             <p>et de fait toutes les manifestations prévues</p>
           </div>
 
-          <div>
+          <div className="nb2021">
             <img
               className="posterWhiteNight"
               src={"src/assets/2021_affiche_nuit_blanche.jpeg"}
@@ -142,7 +157,8 @@ function NuitBlanche() {
               en décalées avec la mise en place d'un protocole sanitaire
             </p>
           </div>
-          <div>
+
+          <div className="nb2022">
             <img
               className="posterWhiteNight"
               src={"src/assets/2022_affiche_nuit_blanche.jpeg"}
@@ -158,7 +174,8 @@ function NuitBlanche() {
               l'association des ForgeMondes
             </p>
           </div>
-          <div>
+
+          <div className="nb2023">
             <img
               className="posterWhiteNight"
               src={"src/assets/2023_affiche_nuit_blanche.jpeg"}
