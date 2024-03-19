@@ -38,12 +38,12 @@ function NuitBlanche() {
               passées :
             </p>
           </div>
-          
+
           <div className="nb2015">
             <img
               className="posterWhiteNight"
               src={"src/assets/2015_affiche_nuit_blanche.jpeg"}
-              alt="nuitblanche2015"
+              alt="Cthulhu face au château du Haut-Koenigsbourg une nuit de pleine lune"
             />
             <p>
               Dans la nuit du samedi 29 au 30 août 2015,<br></br> dans les
@@ -59,7 +59,7 @@ function NuitBlanche() {
             <img
               className="posterWhiteNight"
               src={"src/assets/2016_affiche_nuit_blanche.jpeg"}
-              alt="nuitblanche2016"
+              alt="Tentacules de Cthulhu, un fantôme et une fée dans une bibliothèque"
             />
             <p>
               Dans la nuit du samedi 27 au 28 août 2016,<br></br> au Fort Rapp
@@ -76,7 +76,7 @@ function NuitBlanche() {
             <img
               className="posterWhiteNight"
               src={"src/assets/2017_affiche_nuit_blanche.jpeg"}
-              alt="nuitblanche2017"
+              alt="Cthulhu sur les hauteurs du vallon enveloppant de sa brume un village dans la vallée, le château du Haut-Koenigsbourg surplombé d’un dragon en arrière plan"
             />
             <p>
               Dans la nuit du samedi 24 au 25 juin 2017,<br></br> au Fort Rapp
@@ -94,7 +94,7 @@ function NuitBlanche() {
             <img
               className="posterWhiteNight"
               src={"src/assets/2018_affiche_nuit_blanche.jpeg"}
-              alt="nuitblanche2018"
+              alt="Cthulhu à l’assaut du Fort Rapp Moltke en flamme des humains s’échappant, cigogne ayant des tentacules à la place du bec"
             />
             <p>
               Dans la nuit du samedi 23 au 24 juin 2018,<br></br> au Fort Rapp
@@ -112,7 +112,7 @@ function NuitBlanche() {
             <img
               className="posterWhiteNight"
               src={"src/assets/2019_affiche_nuit_blanche.png"}
-              alt="nuitblanche2019"
+              alt="Corps de ferme à colombages remplis de créatures surnaturelles, une famille est assise sur un banc au premier plan"
             />
             <p>
               Dans la nuit du samedi 29 au 30 juin 2019,<br></br> au Fort Rapp
@@ -131,7 +131,7 @@ function NuitBlanche() {
             <img
               className="posterWhiteNight"
               src={"src/assets/coronavirus_masque.png"}
-              alt="nuitblanche2020"
+              alt="Coronavirus personnifié avec des têtes de mort dans les yeux et un masque chirurgical sur la bouche"
             />
             <p>
               Dans l'année 2020, un virus respiratoire contagieux de la famille
@@ -145,7 +145,7 @@ function NuitBlanche() {
             <img
               className="posterWhiteNight"
               src={"src/assets/2021_affiche_nuit_blanche.jpeg"}
-              alt="nuitblanche2021"
+              alt="Personnage assis portant un masque à gaz, une robe noire à collerette avec des tentacules dans le dos"
             />
             <p>
               Dans la nuit du samedi 03 au 04 juillet 2021,<br></br> au Fort
@@ -162,7 +162,7 @@ function NuitBlanche() {
             <img
               className="posterWhiteNight"
               src={"src/assets/2022_affiche_nuit_blanche.jpeg"}
-              alt="nuitblanche2022"
+              alt="Fille en tenue d’alsacienne, portant un parapluie ainsi qu’un panier et une poupée, se promenant dans les rues d’un village encerclée par des tentacules"
             />
             <p>
               Dans la nuit du samedi 25 au 26 juin 2022,<br></br> au Fort Rapp
@@ -179,7 +179,7 @@ function NuitBlanche() {
             <img
               className="posterWhiteNight"
               src={"src/assets/2023_affiche_nuit_blanche.jpeg"}
-              alt="nuitblanche2023"
+              alt="Cthulhu arpentant une ville lors de la pleine lune"
             />
             <p>
               Dans la nuit du samedi 24 au 25 juin 2023,<br></br> au Fort Rapp

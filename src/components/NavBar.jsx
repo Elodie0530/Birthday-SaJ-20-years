@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navBar">
       <Link to="/">
-        <img className="logo" src={logo} alt="Logo de la Sauce aux Jeux" />
+        <img className="logo" src={logo} alt="Cochon cuisinier mélangeant dans un chaudron les ingrédients suivants : un meeple, un sablier, un dés 6 et un dés 20 de jeux de rôle" />
       </Link>
       <ul className="liste">
         <Link to="/association" className="items">
