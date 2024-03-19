@@ -4,8 +4,8 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <div>
-        <Link to="/credits" className="credits">
+      <div className="credits">
+        <Link to="/credits" className="item">
           Crédits
         </Link>
       </div>
