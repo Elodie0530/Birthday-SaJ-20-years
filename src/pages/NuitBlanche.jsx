@@ -7,7 +7,7 @@ function NuitBlanche() {
     <>
       <div className="nuitBlanche">
         <Navbar />
-        <h1>La Convention `Nuit Blanche sur l'Alsace`</h1>
+        <h1>La Convention <span className="nameTitle">`Nuit Blanche sur l'Alsace`</span></h1>
         <div>
           <div className="intro">
             <p>
@@ -37,7 +37,7 @@ function NuitBlanche() {
               Retour en affiches et en chiffres sur les Conventions des années
               passées :
             </p>
-            <p>En cliquant sur les affiches, elles s'agrandiront</p>
+            <p>En cliquant sur les affiches, <br></br> elles s'agrandiront</p>
           </div>
 
           <div className="nb2015">
