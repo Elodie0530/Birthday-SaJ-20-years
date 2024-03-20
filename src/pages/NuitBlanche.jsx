@@ -11,12 +11,12 @@ function NuitBlanche() {
         <div>
           <div className="intro">
             <p>
-              Voici la Convention majeur de jeux de Rôles de La Sauce aux Jeux.
+              Voici la Convention majeure de jeux de Rôles de La Sauce aux Jeux.
             </p>
             <p>
-              Principalement dans l'univers de Cthulhu (créer par Howard
-              Phillips Lovecraft), ainsi que l’histoire et la culture du
-              Bas-Rhin. Avec des scénarios spécialement constituer pour cette
+              Principalement dans l'univers de Cthulhu (créé par Howard Phillips
+              Lovecraft), ainsi que l’histoire et la culture du Bas-Rhin.{" "}
+              <br></br> Avec des scénarios spécialement constitués pour cette
               occasion.
             </p>
             <p>
@@ -24,7 +24,7 @@ function NuitBlanche() {
               2015 jusqu'à nos jours.
             </p>
             <p>
-              Elle tend à évoluée et se diversifiée avec les associations
+              Elle tend à évoluer et à se diversifier avec les associations
               partenaires, en prenant une nouvelle forme ainsi qu'un nouveau
               nom, donc rendez-vous est donner pour{" "}
               <b>
@@ -37,6 +37,7 @@ function NuitBlanche() {
               Retour en affiches et en chiffres sur les Conventions des années
               passées :
             </p>
+            <p>En cliquant sur les affiches, elles s'agrandiront</p>
           </div>
 
           <div className="nb2015">
@@ -51,7 +52,7 @@ function NuitBlanche() {
             </p>
             <p>
               18 tables de jeux de rôles ont été proposées soit 88 joueurs pour
-              la première édition
+              la première édition.
             </p>
           </div>
 
@@ -67,8 +68,8 @@ function NuitBlanche() {
             </p>
             <p>
               Lors de la deuxième édition, il y avait 91 joueurs avec 19 tables
-              de jeux de rôles, ainsi qu'une soirée enquête “Intrigue au Manoir
-              de Kintzheim” proposée par l'association des Tisseurs d'Etoiles
+              de jeux de rôles.  <br></br> Ainsi qu'une soirée enquête “Intrigue au Manoir
+              de Kintzheim” proposée par l'association des Tisseurs d'Etoiles.
             </p>
           </div>
 
@@ -84,9 +85,9 @@ function NuitBlanche() {
             </p>
             <p>
               Lors de la troisième édition, il y avait 94 joueurs avec 20 tables
-              de jeux de rôles, ainsi qu'une soirée enquête “Insmül, la cité
+              de jeux de rôles. <br></br> Ainsi qu'une soirée enquête “Insmül, la cité
               dont on ne parle pas” proposée par l'association des Tisseurs
-              d'Etoiles
+              d'Etoiles.
             </p>
           </div>
 
@@ -102,9 +103,9 @@ function NuitBlanche() {
             </p>
             <p>
               Lors de la quatrième édition, il y avait 121 joueurs avec 23
-              tables de jeux de rôles, ainsi qu'une soirée enquête "Le drame
+              tables de jeux de rôles. <br></br> Ainsi qu'une soirée enquête "Le drame
               d'Ensisheim" proposée par l'association des Tisseurs d'Etoiles et
-              des animations costumées par l'association des ForgeMondes
+              des animations costumées par l'association des ForgeMondes.
             </p>
           </div>
 
@@ -123,7 +124,8 @@ function NuitBlanche() {
               tables de jeux de rôles. <br></br> Avec comme particularité pour
               les Maîtres du jeu, soit de créer un nouveau scénario, soit de
               faire rejouer celui d'une année précédente.<br></br> Sur les 26
-              tables de jeux seuls 11 sont des sénorios ayant déjà été proposés.
+              tables de jeux seuls 11 sont des scénarios ayant déjà été
+              proposés.
             </p>
           </div>
 
@@ -138,7 +140,7 @@ function NuitBlanche() {
               des coronavirus<br></br> a fait des ravages en mettant le monde
               entier à l'arrêt
             </p>
-            <p>et de fait toutes les manifestations prévues</p>
+            <p>Et de fait toutes les manifestations prévues.</p>
           </div>
 
           <div className="nb2021">
@@ -153,8 +155,8 @@ function NuitBlanche() {
             </p>
             <p>
               Lors de la sixième édition, il y avait 75 joueurs avec 17 tables
-              de jeux de rôles. <br></br> Les différentes tables seront lancées
-              en décalées avec la mise en place d'un protocole sanitaire
+              de jeux de rôles. <br></br> Les différentes tables ont été lancées
+              en décalées avec la mise en place d'un protocole sanitaire.
             </p>
           </div>
 
@@ -171,7 +173,7 @@ function NuitBlanche() {
             <p>
               Lors de la septième édition, il y avait 61 joueurs avec 15 tables
               de jeux de rôles.<br></br> Avec des animations costumées par
-              l'association des ForgeMondes
+              l'association des ForgeMondes.
             </p>
           </div>
 
@@ -188,7 +190,7 @@ function NuitBlanche() {
             <p>
               Lors de la huitième édition, il y avait 69 joueurs avec 16 tables
               de jeux de rôles.<br></br> Avec des animations costumées par
-              l'association des ForgeMondes
+              l'association des ForgeMondes.
             </p>
           </div>
         </div>
