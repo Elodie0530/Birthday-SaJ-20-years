@@ -1,19 +1,33 @@
 .nuitBlanche {
+
   h1 {
     color: #c21449;
+    padding: 1.5rem;
   }
 
   .intro {
+
+    p {
+      padding: 0.7rem;
+    }
+
     p:nth-child(5) {
+      /*Intro "retour en affiches [...]"*/
       text-decoration: underline;
-      text-underline-offset: 4px;
-      padding-bottom: 2rem;
+      text-underline-offset: 2px;
+      padding: 2rem 0.6rem 0rem;
+    }
+
+    p:nth-child(6) {
+      /*Intro "en cliquant sur les affiches [...]"*/
+      padding: 0rem 1.5rem 2rem;
+      font-style: italic;
     }
   }
 
   .posterWhiteNight {
-    width: 20%;
-    margin-bottom: 1rem;
+    width: 70%;
+    margin: 0rem 0rem 1rem;
     box-shadow: 0px 0px 7px 2px #1a1a1a;
     border: solid 2px;
     overflow: hidden;
@@ -24,16 +38,408 @@
     cursor: pointer;
     transform: scale(1.2);
   }
-  
-  .nb2015, .nb2016, .nb2017, .nb2018, .nb2019, .nb2020, .nb2021, .nb2022, .nb2023 {
+
+  .nb2015,
+  .nb2016,
+  .nb2017,
+  .nb2018,
+  .nb2019,
+  .nb2020,
+  .nb2021,
+  .nb2022,
+  .nb2023 {
+
+    p:nth-child(2) {
+      /*1er part paragraph */
+      padding: 0.7rem 3rem;
+    }
+
+    p {
+      padding: 1rem;
+    }
+
     &:after {
+      /*line separator*/
       content: "";
       display: block;
       background-color: #c21449;
-      margin: 3rem auto;
+      margin: 2rem auto 3rem;
       width: 50%;
       height: 2px;
+    }
+  }
+}
+
+
+/* //////////////390px///////// */
+
+@media screen and (min-width: 390px) {
+  .nuitBlanche {
+
+    h1 {
+      margin: 1rem;
+      padding: 2rem;
+    }
+
+    .posterWhiteNight {
+      margin: 2rem 0rem;
+    }
+  }
+}
+
+
+/* //////////////540px///////// */
+
+@media screen and (min-width: 540px) {
+  .nuitBlanche {
+
+    h1 {
+      padding: unset;
+      margin: 2rem 1rem;
+      .nameTitle {
+        display: block;
+      }
+    }
+
+    .intro {
+      font-size: 18px;
+
+      p {
+        padding: 0.7rem 2rem;
+      }
+
+      p:nth-child(5) {
+        padding: 2rem 4rem 0rem;
+      }
+    }
+
+    .posterWhiteNight {
+      margin: 3rem 0rem;
+    }
+
+    .nb2015,
+    .nb2016,
+    .nb2017,
+    .nb2018,
+    .nb2019,
+    .nb2020,
+    .nb2021,
+    .nb2022,
+    .nb2023 {
+
+      p:nth-child(2) {
+        /*1er part paragraph */
+        padding: 0.7rem 3rem;
+      }
+
+      p {
+        font-size: 18px;
+        padding: 1rem 2rem;
+      }
+    }
+  }
+}
+
+
+/* //////////////600px///////// */
+
+@media screen and (min-width: 600px) {
+  .nuitBlanche {
+
+    .intro {
+
+      p {
+        padding: 0.7rem 3rem;
+      }
+    }
+
+    .nb2015,
+    .nb2016,
+    .nb2017,
+    .nb2018,
+    .nb2019,
+    .nb2020,
+    .nb2021,
+    .nb2022,
+    .nb2023 {
+
+      p:nth-child(2) {
+        /*1er part paragraph */
+        padding: 0.7rem 5rem;
+      }
+
+      p {
+        padding: 1rem 9rem;
+      }
+    }
+  }
+}
+
+
+/* //////////////768px///////// */
+
+@media screen and (min-width: 768px) {
+  .nuitBlanche {
+
+    .intro {
+
+      p {
+        padding: 0.7rem 5rem;
+      }
+
+      p:nth-child(5) {
+        /*Intro "retour en affiches [...]"*/
+        padding: 2rem 10rem 0rem;
+      }
+    }
+
+    .nb2015,
+    .nb2016,
+    .nb2017,
+    .nb2018,
+    .nb2019,
+    .nb2020,
+    .nb2021,
+    .nb2022,
+    .nb2023 {
+
+      p:nth-child(2) {
+        /*1er part paragraph */
+        padding: 2rem 10.5rem 0.7rem;
+      }
+
+      p {
+        padding: 1rem 14rem;
+      }
+    }
+  }
+}
+
+
+/* //////////////912px///////// */
+
+@media screen and (min-width: 912px) {
+  .nuitBlanche {
+
+    .intro {
+      font-size: 20px;
+
+      p {
+        padding: 0.7rem 6rem;
+      }
+
+      p:nth-child(5) {
+        /*Intro "retour en affiches [...]"*/
+        padding: 2rem 15rem 0rem;
+      }
+    }
+
+    .posterWhiteNight {
+      margin: 5rem 0rem;
+    }
+
+    .nb2015,
+    .nb2016,
+    .nb2017,
+    .nb2018,
+    .nb2019,
+    .nb2020,
+    .nb2021,
+    .nb2022,
+    .nb2023 {
+
+      p {
+        font-size: 20px;
+        padding: 1rem 12rem;
+      }
+    }
+  }
+}
+
+
+/* //////////////1024px///////// */
+
+@media screen and (min-width: 1024px) {
+  .nuitBlanche {
+
+    .intro {
+
+      p {
+        padding: 0.7rem 10rem;
+      }
+      
+      p:nth-child(5) {
+        /*Intro "retour en affiches [...]"*/
+        padding: 2rem 17rem 0rem;
+      }
+    }
     
+    .posterWhiteNight {
+      width: 35%;
+    }
+
+    .nb2015,
+    .nb2016,
+    .nb2017,
+    .nb2018,
+    .nb2019,
+    .nb2020,
+    .nb2021,
+    .nb2022,
+    .nb2023 {
+
+      p {
+        padding: 1rem 20rem;
+      }
+    }
+  }
+}
+
+
+/* //////////////1280px///////// */
+
+@media screen and (min-width: 1280px) {
+  .nuitBlanche {
+
+    .intro {
+
+      p {
+        padding: 0.7rem 12rem;
+      }
+
+      p:nth-child(5) {
+        /*Intro "retour en affiches [...]"*/
+        padding: 2rem 23rem 0rem;
+      }
+    }
+
+    .posterWhiteNight {
+      width: 20%;
+      margin-bottom: 1rem;
+    }
+
+    .nb2015,
+    .nb2016,
+    .nb2017,
+    .nb2018,
+    .nb2019,
+    .nb2020,
+    .nb2021,
+    .nb2022,
+    .nb2023 {
+
+      p:nth-child(2) {
+        /*1er part paragraph */
+        padding: 1.5rem 21rem 0.7rem;
+      }
+
+      p {
+        padding: 1rem 23rem;
+      }
+    }
+  }
+}
+
+
+/* //////////////1366px///////// */
+
+@media screen and (min-width: 1366px) {
+  .nuitBlanche {
+
+    .intro {
+
+      p {
+        padding: 0.7rem 15rem;
+      }
+
+      p:nth-child(5) {
+        /*Intro "retour en affiches [...]"*/
+        padding: 2rem 0rem;
+      }
+    }
+
+    .nb2015,
+    .nb2016,
+    .nb2017,
+    .nb2018,
+    .nb2019,
+    .nb2020,
+    .nb2021,
+    .nb2022,
+    .nb2023 {
+
+      p {
+        padding: 1rem 20rem;
+      }
+    }
+  }
+}
+
+
+/* //////////////1400px///////// */
+
+@media screen and (min-width: 1400px) {
+  .nuitBlanche {
+
+    .nb2015,
+    .nb2016,
+    .nb2017,
+    .nb2018,
+    .nb2019,
+    .nb2020,
+    .nb2021,
+    .nb2022,
+    .nb2023 {
+
+      p:nth-child(2) {
+        /*1er part paragraph */
+        padding: 1.5rem 24rem 0.7rem;
+      }
+
+      &:after {
+        /*line separator*/
+        width: 60%;
+      }
+    }
+  }
+}
+
+
+/* //////////////1920px/////////
+
+resolutions above stuck in app.css-body window in 1920 */
+@media screen and (min-width: 1920px) {
+  .nuitBlanche {
+
+    .intro {
+
+      p {
+        padding: 0.7rem 30rem;
+      }
+    }
+
+    .posterWhiteNight {
+      margin-bottom: 3rem;
+    }
+
+    .nb2015,
+    .nb2016,
+    .nb2017,
+    .nb2018,
+    .nb2019,
+    .nb2020,
+    .nb2021,
+    .nb2022,
+    .nb2023 {
+
+      p {
+        padding: 1rem 23rem;
+      }
+      
+      &:after {
+        /*line separator*/
+        width: 70%;
+      }
     }
   }
 }
