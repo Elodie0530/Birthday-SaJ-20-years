@@ -1,8 +1,49 @@
 .footer {
-  background-color: burlywood;
-  padding: 1rem;
+  background-color: gray;
+  padding: 0.5rem;
 
   p {
     font-style: italic;
+    margin: 1rem 3rem;
+  }
+
+  .credits {
+    margin: 1rem;
+
+    .item {
+      color: #fce1bb;
+      text-decoration: none;
+    }
+  }
+}
+
+
+/* //////////////353px/////////*/
+
+@media screen and (min-width: 353px) {
+  .footer {
+
+    p {
+      font-style: italic;
+      margin: 1rem 0rem;
+    }
+  }
+}
+
+
+/* //////////////540px///////// */
+
+@media screen and (min-width: 540px) {
+  .footer {
+    font-size: 18px;
+  }
+}
+
+
+/* //////////////912px///////// */
+
+@media screen and (min-width: 912px) {
+  .footer {
+    font-size: 20px;
   }
 }
