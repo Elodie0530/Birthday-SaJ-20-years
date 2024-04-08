@@ -11,8 +11,17 @@ function Home() {
       <div className="navbar">
         <Navbar />
       </div>
-      
+
       <h1>20 ans</h1>
+      <div>
+        <img
+          className="gateau"
+          src={"./src/assets/gateau_anniversaire.png"}
+          alt="20 ans joyeux anniversaire, pièce montée d'anniversaire avec deux bougies soutenue par deux cochons cuisinier La Sauce aux Jeux"
+        />
+      </div>
+
+     
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta amet
         commodi modi quos illum rem dolorem similique assumenda labore porro cum
