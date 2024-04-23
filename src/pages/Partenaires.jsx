@@ -1,9 +1,11 @@
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
+import "./Partenaires.css"
 
 function Partenaires() {
   return (
     <>
+     <div className="partenaires">
       <Navbar />
       <h1>Hi friends</h1>
       <div>
@@ -13,6 +15,7 @@ function Partenaires() {
         aliquam sunt odit!
       </div>
       <Footer />
+      </div>
     </>
   );
 }
