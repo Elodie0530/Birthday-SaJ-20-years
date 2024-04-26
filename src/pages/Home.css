@@ -3,7 +3,15 @@
     color: #c21449;
   }
 
-.count {
+  .gateau {
+    width: 100%;
+  }
+
+  .coeur {
+    width: 100%;
+  }
+
+  .count {
     padding: 2em;
     background-color: yellowgreen;
   }

@@ -21,7 +21,17 @@ function Home() {
             alt="20 ans joyeux anniversaire, pièce montée d'anniversaire avec deux bougies soutenue par deux cochons cuisinier La Sauce aux Jeux"
           />
         </div>
-       
+
+        <div className="coeur">
+          <div>
+            <img
+              className="coeur"
+              src={"./src/assets/coeur_nuage_mots.png"}
+              alt="Coeur ombragée comprenant un nuage de mots sur la Sauce aux Jeux"
+            />
+          </div>
+        </div>
+
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta amet
           commodi modi quos illum rem dolorem similique assumenda labore porro
