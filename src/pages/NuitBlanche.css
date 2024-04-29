@@ -1,12 +1,5 @@
 .nuitBlanche {
-
-  h1 {
-    color: #c21449;
-    padding: 1.5rem;
-  }
-
   .intro {
-
     p {
       padding: 0.7rem;
     }
@@ -48,7 +41,6 @@
   .nb2021,
   .nb2022,
   .nb2023 {
-
     p:nth-child(2) {
       /*1er part paragraph */
       padding: 0.7rem 3rem;
@@ -70,12 +62,10 @@
   }
 }
 
-
 /* //////////////390px///////// */
 
 @media screen and (min-width: 390px) {
   .nuitBlanche {
-
     h1 {
       margin: 1rem;
       padding: 2rem;
@@ -87,12 +77,10 @@
   }
 }
 
-
 /* //////////////540px///////// */
 
 @media screen and (min-width: 540px) {
   .nuitBlanche {
-
     h1 {
       padding: unset;
       margin: 2rem 1rem;
@@ -126,7 +114,6 @@
     .nb2021,
     .nb2022,
     .nb2023 {
-
       p:nth-child(2) {
         /*1er part paragraph */
         padding: 0.7rem 3rem;
@@ -140,14 +127,11 @@
   }
 }
 
-
 /* //////////////600px///////// */
 
 @media screen and (min-width: 600px) {
   .nuitBlanche {
-
     .intro {
-
       p {
         padding: 0.7rem 3rem;
       }
@@ -162,7 +146,6 @@
     .nb2021,
     .nb2022,
     .nb2023 {
-
       p:nth-child(2) {
         /*1er part paragraph */
         padding: 0.7rem 5rem;
@@ -175,14 +158,11 @@
   }
 }
 
-
 /* //////////////768px///////// */
 
 @media screen and (min-width: 768px) {
   .nuitBlanche {
-
     .intro {
-
       p {
         padding: 0.7rem 5rem;
       }
@@ -202,7 +182,6 @@
     .nb2021,
     .nb2022,
     .nb2023 {
-
       p:nth-child(2) {
         /*1er part paragraph */
         padding: 2rem 10.5rem 0.7rem;
@@ -215,12 +194,10 @@
   }
 }
 
-
 /* //////////////912px///////// */
 
 @media screen and (min-width: 912px) {
   .nuitBlanche {
-
     .intro {
       font-size: 20px;
 
@@ -247,7 +224,6 @@
     .nb2021,
     .nb2022,
     .nb2023 {
-
       p {
         font-size: 20px;
         padding: 1rem 12rem;
@@ -256,24 +232,21 @@
   }
 }
 
-
 /* //////////////1024px///////// */
 
 @media screen and (min-width: 1024px) {
   .nuitBlanche {
-
     .intro {
-
       p {
         padding: 0.7rem 10rem;
       }
-      
+
       p:nth-child(5) {
         /*Intro "retour en affiches [...]"*/
         padding: 2rem 17rem 0rem;
       }
     }
-    
+
     .posterWhiteNight {
       width: 35%;
     }
@@ -287,7 +260,6 @@
     .nb2021,
     .nb2022,
     .nb2023 {
-
       p {
         padding: 1rem 20rem;
       }
@@ -295,14 +267,11 @@
   }
 }
 
-
 /* //////////////1280px///////// */
 
 @media screen and (min-width: 1280px) {
   .nuitBlanche {
-
     .intro {
-
       p {
         padding: 0.7rem 12rem;
       }
@@ -327,7 +296,6 @@
     .nb2021,
     .nb2022,
     .nb2023 {
-
       p:nth-child(2) {
         /*1er part paragraph */
         padding: 1.5rem 21rem 0.7rem;
@@ -340,14 +308,11 @@
   }
 }
 
-
 /* //////////////1366px///////// */
 
 @media screen and (min-width: 1366px) {
   .nuitBlanche {
-
     .intro {
-
       p {
         padding: 0.7rem 15rem;
       }
@@ -367,7 +332,6 @@
     .nb2021,
     .nb2022,
     .nb2023 {
-
       p {
         padding: 1rem 20rem;
       }
@@ -375,12 +339,10 @@
   }
 }
 
-
 /* //////////////1400px///////// */
 
 @media screen and (min-width: 1400px) {
   .nuitBlanche {
-
     .nb2015,
     .nb2016,
     .nb2017,
@@ -390,7 +352,6 @@
     .nb2021,
     .nb2022,
     .nb2023 {
-
       p:nth-child(2) {
         /*1er part paragraph */
         padding: 1.5rem 24rem 0.7rem;
@@ -404,15 +365,12 @@
   }
 }
 
-
 /* //////////////1920px/////////
 
 resolutions above stuck in app.css-body window in 1920 */
 @media screen and (min-width: 1920px) {
   .nuitBlanche {
-
     .intro {
-
       p {
         padding: 0.7rem 30rem;
       }
@@ -431,7 +389,6 @@ resolutions above stuck in app.css-body window in 1920 */
     .nb2021,
     .nb2022,
     .nb2023 {
-
       p {
         padding: 1rem 23rem;
       }

@@ -10,6 +10,11 @@ body {
   width: 100%;
   /* place-items: center; */
   /* max-width: 1920px; */
+
+  h1 {
+    color: #c21449;
+    padding: 1.5rem;
+  }
 }
 
 #root {
