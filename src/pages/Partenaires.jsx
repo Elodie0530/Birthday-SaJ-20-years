@@ -1,5 +1,5 @@
 import Navbar from "../components/NavBar";
-import Footer from "../components/Footer";
+import {Footer} from "../components/Footer";
 import "./Partenaires.css"
 
 function Partenaires() {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Navbar from "../components/NavBar";
-import Footer from "../components/Footer";
+import {Footer} from "../components/Footer";
 import "./Home.css";
 
 function Home() {
@@ -22,14 +22,12 @@ function Home() {
           />
         </div>
 
-        <div className="coeur">
-          <div>
-            <img
-              className="coeur"
-              src={"./src/assets/coeur_nuage_mots.png"}
-              alt="Coeur ombragée comprenant un nuage de mots sur la Sauce aux Jeux"
-            />
-          </div>
+        <div>
+          <img
+            className="coeur"
+            src={"./src/assets/coeur_nuage_mots.png"}
+            alt="Coeur ombragée comprenant un nuage de mots sur la Sauce aux Jeux"
+          />
         </div>
 
         <p>

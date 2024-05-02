@@ -1,4 +1,5 @@
-.footer {
+.footer,
+.footer2 {
   background-color: gray;
   padding: 0.5rem;
 
@@ -7,7 +8,8 @@
     margin: 1rem 3rem;
   }
 
-  .credits {
+  .credits,
+  .accueil {
     margin: 1rem;
 
     .item {
@@ -17,12 +19,11 @@
   }
 }
 
-
 /* //////////////353px/////////*/
 
 @media screen and (min-width: 353px) {
-  .footer {
-
+  .footer,
+  .footer2 {
     p {
       font-style: italic;
       margin: 1rem 0rem;
@@ -30,20 +31,20 @@
   }
 }
 
-
 /* //////////////540px///////// */
 
 @media screen and (min-width: 540px) {
-  .footer {
+  .footer,
+  .footer2 {
     font-size: 18px;
   }
 }
 
-
 /* //////////////912px///////// */
 
 @media screen and (min-width: 912px) {
-  .footer {
+  .footer,
+  .footer2 {
     font-size: 20px;
   }
 }
