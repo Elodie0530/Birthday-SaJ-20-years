@@ -1,6 +1,106 @@
 .credits {
-    /* test */
-  h1 {
-    background-color: blueviolet;
+  .intro {
+    p:nth-child(3) {
+      display: inline;
+      border-bottom: 1px solid black;
+      line-height: 1.5em;
+    }
+  }
+  .link_site {
+    color: black;
+    text-decoration-color: #a7113e;
+  }
+  .link_site:hover {
+    background-color: #f7b7b4;
+  }
+
+  .icon {
+    width: 1em;
+  }
+
+  .people {
+    p:nth-child(1) {
+      margin-top: 4rem;
+    }
+
+    li:nth-child(2) {
+      p {
+        margin-top: unset;
+        padding-left: 40px;
+      }
+    }
+  }
+
+  .people,
+  .entree,
+  .night_white,
+  .homepage {
+    .congrat {
+      text-align: left;
+      list-style-type: none;
+
+      .icon_li::before {
+        content: "";
+        display: inline-block;
+        height: 35px;
+        width: 40px;
+        background-image: url(../assets/des_jdr.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      li {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .entree,
+  .homepage,
+  .night_white,
+  .my_word {
+    p:nth-child(1) {
+      color: #fce1bb;
+      background-color: #a9083d;
+      margin-top: 4rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .homepage {
+    p:nth-child(3) {
+      padding: 0px 40px 0px;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    caption {
+      padding: 10px;
+      font-style: italic;
+    }
+
+    td,
+    th {
+      border: 1px solid #a7113e;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+
+  .my_word {
+    p:nth-child(7) {
+      margin-top: 2rem;
+      color: #c21449;
+      display: inline-block;
+      padding: 5px;
+      border: 8px #a7113e inset;
+      box-shadow: 2px 1px 2px 0px #3b2a40, 0em -2px 2em 7px gray;
+      border-radius: 20px / 10px;
+    }
+    .coeur_credit {
+      margin-top: 1rem;
+    }
   }
 }
