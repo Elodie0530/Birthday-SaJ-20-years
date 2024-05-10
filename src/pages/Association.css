@@ -1,5 +1,7 @@
 .asso {
   /* test */
+  min-height: 800px;
+  
   h1 {
     background-color: aqua;
   }

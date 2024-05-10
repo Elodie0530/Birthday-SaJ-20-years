@@ -5,9 +5,14 @@ import "./NavBar.css";
 function Navbar() {
   return (
     <nav className="navBar">
-      <Link to="/">
-        <img className="logo" src={logo} alt="Logo La Sauce aux Jeux, Cochon cuisinier mélangeant dans un chaudron les ingrédients suivants : un meeple, un sablier, un dés 6 et un dés 20 de jeux de rôle" />
+      <Link to="/20ans">
+        <img
+          className="logo"
+          src={logo}
+          alt="Logo La Sauce aux Jeux, Cochon cuisinier mélangeant dans un chaudron les ingrédients suivants : un meeple, un sablier, un dés 6 et un dés 20 de jeux de rôle"
+        />
       </Link>
+
       <ul className="liste">
         <Link to="/association" className="items">
           L'association

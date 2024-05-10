@@ -1,4 +1,6 @@
 .home {
+  min-height: 800px;
+
   h1 {
     color: #c21449;
   }

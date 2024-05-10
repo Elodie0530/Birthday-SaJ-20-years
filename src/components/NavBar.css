@@ -5,6 +5,7 @@
   justify-content: center;
   flex-direction: column;
   background-color: gray;
+  min-height: 303px;
 
   .liste {
     color: black;
@@ -29,7 +30,6 @@
   }
 }
 
-
 /* //////////////540px///////// */
 
 @media screen and (min-width: 540px) {
@@ -45,7 +45,6 @@
     }
   }
 }
-
 
 /* //////////////912px///////// */
 
