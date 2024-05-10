@@ -1,22 +1,20 @@
-import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Asso from "./pages/Association";
-import NuitBlanche from "./pages/NuitBlanche";
-import Partenaires from "./pages/Partenaires";
-import Credits from "./pages/Credits";
 import "./App.css";
+import { useLocation } from "react-router-dom";
+import Navbar from "./components/NavBar";
+import { Outlet } from "react-router-dom";
+import { Footer, Footer2 } from "./components/Footer";
 
 function App() {
+  const location = useLocation();
+
+  // recup path actuelle // {...} -> "/credits"
+
   return (
     <>
       <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/association" element={<Asso />} />
-          <Route path="/nuitBlanche" element={<NuitBlanche />} />
-          <Route path="/partenaires" element={<Partenaires />} />
-          <Route path="/credits" element={<Credits />} />
-        </Routes>
+        <Navbar />
+        <Outlet />
+        {location.pathname === "/credits" ? <Footer2 /> : <Footer />}
       </div>
     </>
   );

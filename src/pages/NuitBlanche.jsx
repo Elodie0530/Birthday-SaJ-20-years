@@ -1,12 +1,9 @@
-import Navbar from "../components/NavBar";
-import {Footer} from "../components/Footer";
 import "./NuitBlanche.css";
 
 function NuitBlanche() {
   return (
     <>
       <div className="nuitBlanche">
-        <Navbar />
         <h1>La Convention <span className="nameTitle">`Nuit Blanche sur l'Alsace`</span></h1>
         <div>
           <div className="intro">
@@ -194,7 +191,6 @@ function NuitBlanche() {
             </p>
           </div>
         </div>
-        <Footer />
       </div>
     </>
   );

@@ -1,12 +1,9 @@
-import Navbar from "../components/NavBar";
 import "./Credits.css";
-import { Footer2 } from "../components/Footer";
 
 function Credits() {
   return (
     <>
       <div className="credits">
-        <Navbar />
         <h1>Crédits</h1>
         <div className="intro">
           <p>Je vais décrire ici les outils ainsi que les sources utilisées.</p>
@@ -60,7 +57,7 @@ function Credits() {
             </li>
 
             <li className="icon_li">
-              Messieurs Florian L. , Herimanana R. , et Romain G. pour l'aide
+              Messieurs Florian L. , Herimanana R. , Matthieu L. et Romain G. pour l'aide
               technique apportée lors des problèmes de développement de ce site.
             </li>
 
@@ -277,10 +274,6 @@ function Credits() {
               alt="Coeur ombragé contenant deux cochons tenant un coeur entre leurs pattes, une cascade de dés et quatres meeples de couleurs bleu, jaune, rouge et vert."
             />
           </div>
-        </div>
-
-        <div className="footer2">
-          <Footer2 />
         </div>
       </div>
     </>

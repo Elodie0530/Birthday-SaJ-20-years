@@ -1,19 +1,39 @@
-import { useState } from "react";
-import Navbar from "../components/NavBar";
-import {Footer} from "../components/Footer";
 import "./Home.css";
+// import { useState } from "react";
 
 function Home() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
       <div className="home">
-        <div className="navbar">
-          <Navbar />
-        </div>
 
         <h1>20 ans</h1>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          accusantium, amet dolorum nihil itaque iure error deserunt et! Eius
+          harum id commodi dignissimos dolorem tempore nulla vel fuga accusamus
+          dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Atque vel deserunt, debitis sequi doloribus eius harum assumenda modi
+          eligendi ut similique minus sit, dolores natus officiis, eaque
+          mollitia recusandae dolor. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ullam doloribus magnam dolor nulla exercitationem
+          eveniet reprehenderit fugiat nihil temporibus deserunt. Repellendus
+          fugit sequi perspiciatis mollitia. Labore perspiciatis impedit
+          voluptas quae. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Ipsam, aut nesciunt. At quisquam minus possimus voluptate a
+          magnam quo nemo quae laborum, consequuntur amet ipsa porro atque,
+          nesciunt asperiores veniam. Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Explicabo, illo. Praesentium atque voluptas quo
+          deleniti natus. Blanditiis maxime magni expedita deleniti in, soluta
+          inventore nam qui dolorum perspiciatis mol Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Voluptates error enim assumenda
+          voluptatum nisi, quod perferendis architecto tempora voluptas animi
+          dignissimos fuga eveniet natus ullam dolores, cum quasi similique
+          omnis!
+          
+        </div>
+
         <div>
           <img
             className="gateau"
@@ -35,18 +55,15 @@ function Home() {
           commodi modi quos illum rem dolorem similique assumenda labore porro
           cum animi veritatis placeat odit eligendi in, magni facilis quod!
         </p>
-        <div className="count">
+
+        {/* <div className="count">
           <button onClick={() => setCount((count) => count + 1)}>
             count is {count}
           </button>
           <p>div compteur</p>
-        </div>
+        </div> */}
 
         <div>hello world</div>
-
-        <div className="footer">
-          <Footer />
-        </div>
       </div>
     </>
   );
