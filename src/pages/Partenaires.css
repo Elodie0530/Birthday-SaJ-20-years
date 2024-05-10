@@ -1,6 +1,77 @@
 .partenaires {
-  /* test */
-  h1 {
-    background-color: goldenrod;
+
+  .partner,
+  .lieu,
+  .asso,
+  .festival,
+  .autre,
+  .bar,
+  .media {
+    text-align: left;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .icon_li::before {
+      content: "";
+      display: inline-block;
+      height: 35px;
+      width: 40px;
+      background-image: url(../assets/des20.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding-left: 1.5rem;
+    }
+  }
+
+  li {
+    margin-bottom: 2rem;
+    padding-left: 25%;
+  }
+  
+  ul {
+    padding: unset;
+  }
+
+  .institution,
+  .lieux,
+  .assos,
+  .festivals,
+  .autres,
+  .bars,
+  .medias {
+    p:nth-child(1) {
+      color: #fce1bb;
+      background-color: #a9083d;
+      margin-top: 4rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .institution {
+    position: relative;
+  }
+
+  .cochons {
+    position: absolute;
+    /* top: -90px; */
+    top: -105px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .cochon_gauche,
+  .cochon_droite {
+    width: 12%; /* Ajustez la taille de l'image ici c'était 10 de base */
+  }
+
+  .cochon_gauche img,
+  .cochon_droite img {
+    /*images responsives au ratio*/
+    width: 100%;
+    height: auto;
   }
 }
