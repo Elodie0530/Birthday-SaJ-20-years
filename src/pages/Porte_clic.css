@@ -1,0 +1,31 @@
+.porte {
+  display: grid;
+  justify-content: center; /* Centre à l'horizontal*/
+  align-items: center; /* Centre à la verticale*/
+  height: 100vh; /* Hauteur de la vue du navigateur */
+  margin: 0;
+
+  .img {
+    max-width: 100%; /*Image ajustée à la largeur de la grille */
+    max-height: 100vh; /*Image ajustée à la hauteur de la grille */
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+  }
+
+  /* .box {
+    border: 2px solid red;
+  } */
+
+  .box.clic {
+    cursor: pointer;
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+}
