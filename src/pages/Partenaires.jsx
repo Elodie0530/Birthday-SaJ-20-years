@@ -44,10 +44,7 @@ function Partenaires() {
 
             <li className="icon_li">La Mairie de Reichstett</li>
 
-            <li className="icon_li">
-              Service Universitaire de l’Action Culturelle de l’Université de
-              Strasbourg
-            </li>
+            <li className="icon_li">La Ville de Strasbourg</li>
           </ul>
         </div>
 
