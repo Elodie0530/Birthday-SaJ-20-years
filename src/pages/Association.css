@@ -1,8 +1,202 @@
 .asso {
-  /* test */
-  min-height: 800px;
-  
-  h1 {
-    background-color: aqua;
+  .intoduction {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-items: stretch;
+
+    .text_intro {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+    }
+
+    .text_intro p {
+      line-height: 1.5rem;
+      margin: 0;
+    }
+
+    .livre20_droite {
+      justify-self: center;
+    }
+
+    .livre {
+      max-width: 80%;
+      height: auto;
+    }
+
+    .fin_intro {
+      padding-left: 50%;
+      margin: unset;
+      position: relative;
+      display: inline-block;
+    }
+
+    .fin_intro::after {
+      content: "";
+      position: absolute;
+      left: 55.4rem;
+      right: 16.5rem;
+      bottom: -3px;
+      height: 1px;
+      background-color: black;
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
+
+  .actualy {
+    margin: 3rem 0rem;
+  }
+
+  .pionnier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10rem 6rem 5rem;
+
+    .nappe {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vh;
+      padding: 2rem;
+    }
+
+    .nappe_oval {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0.5;
+    }
+
+    .text_pionnier {
+      position: relative;
+      text-align: center;
+      padding: 1rem 5rem;
+    }
+
+    .text_pionnier p {
+      margin: 1rem 0;
+    }
+  }
+
+  .old_logo {
+    padding-bottom: 2rem;
+
+    figcaption {
+      font-style: italic;
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  .old_time {
+    .title_old {
+      position: relative;
+      display: inline-block;
+    }
+
+    .title_old::after {
+      content: "";
+      position: absolute;
+      left: 0rem;
+      right: 0.9rem;
+      bottom: -3px;
+      height: 1px;
+      background-color: black;
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
+
+  .you {
+    margin: 10rem 0rem 5rem;
+    align-items: center;
+    justify-items: stretch;
+
+    .text_you {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text_you p {
+      margin: 0;
+      padding: 0.5rem 0rem;
+    }
+
+    .livre20_gauche {
+      text-align: start;
+      padding: 2rem 4rem 0rem;
+      width: 295px;
+      height: auto;
+    }
+
+    .livre {
+      max-width: 80%;
+      height: auto;
+    }
+  }
+
+  /*gere .actualy et .old_time*/
+  ul {
+    li {
+      position: relative;
+      list-style-type: none;
+      text-align: left;
+
+      :nth-child(1):before {
+        content: "";
+        background-image: url(../assets/tete_cochon_face.png);
+        display: inline-block;
+        height: 35px;
+        width: 40px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+
+      p:nth-child(1) {
+        padding-left: 4rem;
+        padding-top: 10px;
+        margin: 2rem 1rem;
+        margin-top: 3rem;
+        text-decoration: underline;
+        text-underline-offset: 6px;
+      }
+
+      :before {
+        content: "⫸";
+        display: inline-block;
+        width: 40px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-left: 3rem;
+      }
+
+      p:nth-child(3):before {
+        /* pour simuler une puce et aligné sur les autres */
+        content: "";
+      }
+
+      p:nth-child(3) {
+        padding-bottom: 1rem;
+      }
+
+      p {
+        margin: unset;
+      }
+    }
   }
 }
