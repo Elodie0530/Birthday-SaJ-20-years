@@ -28,20 +28,8 @@
     .fin_intro {
       padding-left: 50%;
       margin: unset;
-      position: relative;
-      display: inline-block;
-    }
-
-    .fin_intro::after {
-      content: "";
-      position: absolute;
-      left: 55.4rem;
-      right: 16.5rem;
-      bottom: -3px;
-      height: 1px;
-      background-color: black;
-      transform: scaleX(1);
-      transform-origin: left;
+      text-decoration: underline;
+      text-underline-offset: 4px;
     }
   }
 
@@ -98,20 +86,8 @@
 
   .old_time {
     .title_old {
-      position: relative;
-      display: inline-block;
-    }
-
-    .title_old::after {
-      content: "";
-      position: absolute;
-      left: 0rem;
-      right: 0.9rem;
-      bottom: -3px;
-      height: 1px;
-      background-color: black;
-      transform: scaleX(1);
-      transform-origin: left;
+      text-decoration: underline;
+      text-underline-offset: 4px;
     }
   }
 
@@ -173,7 +149,7 @@
         margin: 2rem 1rem;
         margin-top: 3rem;
         text-decoration: underline;
-        text-underline-offset: 6px;
+        text-underline-offset: 4px;
       }
 
       :before {

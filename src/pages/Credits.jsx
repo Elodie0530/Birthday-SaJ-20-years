@@ -46,8 +46,10 @@ function Credits() {
               Madame Camille Tisserand, dessinatrice officielle de la Sauce aux
               Jeux.{" "}
               <p>
-                Le logo de l'association ainsi que tous les "petits cochons" présents sur le site sont
-                son œuvre, je me suis permise de vous les emprunter.
+                Le logo de l'association ainsi que les "petits cochons" présents
+                sur le site sont son œuvre.<br></br>
+                Avec la participation de Claire Etavard pour certains
+                d'entre-eux, je me suis permise de vous les emprunter.
               </p>
             </li>
 
@@ -57,13 +59,14 @@ function Credits() {
             </li>
 
             <li className="icon_li">
-              Messieurs Florian L. , Herimanana R. , Matthieu L. et Romain G. pour l'aide
-              technique apportée lors des problèmes de développement de ce site.
+              Messieurs Florian L. , Herimanana R. , Matthieu L. et Romain G.
+              pour l'aide technique apportée lors des problèmes de développement
+              de ce site.
             </li>
 
             <li className="icon_li">
-              Madame Séverine M. pour son empêchement à pouvoir collaborer et
-              ses avis sur le gâteau et la porte.
+              Madame Séverine M. pour ses avis sur le gâteau, la porte, ainsi
+              que ses connaissances de l'association.
             </li>
 
             <li className="icon_li">
@@ -124,7 +127,8 @@ function Credits() {
             </li>
 
             <li className="icon_li">
-              Le logo de la Sauce aux jeux, ainsi que les cochons sont de Camille Tisserand.
+              Le logo de la Sauce aux jeux, ainsi que les cochons sont de
+              Camille Tisserand et de Claire Etavard.
             </li>
 
             <li className="icon_li">
@@ -218,6 +222,29 @@ function Credits() {
           </ul>
         </div>
 
+        <div className="association">
+          <p>
+            <b>Pour la page de l'association :</b>
+          </p>
+
+          <ul className="congrat">
+            <li className="icon_li">
+              {" "}
+              Les cochons tenant les livres sont des images de Claire Etavard,
+              les livres ont été retravaillés avec le logiciel GIMP.
+            </li>
+
+            <li className="icon_li">
+              Les têtes de cochon de face utilisées comme puces sont des
+              éléments d'illustration du site Canva.
+            </li>
+
+            <li className="icon_li">
+              L'ancien logo de la Sauce aux Jeux a été réalisé par Mott.
+            </li>
+          </ul>
+        </div>
+
         <div className="night_white">
           <p>
             <b>Pour la page convention nuit blanche sur l'Alsace :</b>
@@ -225,8 +252,26 @@ function Credits() {
 
           <ul className="congrat">
             <li className="icon_li">
-              Le masque pour illustrer l'année blanche de 2020 suite à la pandémie du
-              covid19, est de Gordon Johnson (GDJ) trouvé sur le site{" "}
+              Les affiches 2015 et 2016 sont des illustrations de Manon
+              Archambault.
+            </li>
+
+            <li className="icon_li">
+              L'affiche de 2017 est illustée par Belysambre.
+            </li>
+
+            <li className="icon_li">
+              L'affiche de 2018 a été réalisé par Gondin.
+            </li>
+
+            <li className="icon_li">
+              L'affiche de 2019 est une illustration faite par Baron Samedi.
+            </li>
+
+            <li className="icon_li">
+              Le masque pour illustrer l'année blanche de 2020 suite à la
+              pandémie du covid19, est de Gordon Johnson (GDJ) trouvé sur le
+              site{" "}
               <a
                 className="link_site"
                 href="https://pixabay.com/fr/vectors/coronavirus-maladie-anthropomorphe-4993235/"
@@ -243,6 +288,30 @@ function Credits() {
               />
               .
             </li>
+
+            <li className="icon_li">
+              L'affiche de 2021 est une illustration par LuminatieArt.
+            </li>
+
+            <li className="icon_li">
+              L'affiche 2022 a été réalisée par Roseline Bûcher.
+            </li>
+
+            <li className="icon_li">
+              L'affiche de l'année 2023 est une illustration de William Blum.
+            </li>
+          </ul>
+        </div>
+
+        <div className="partners">
+          <p>
+            <b>Pour la page des partenaires :</b>
+          </p>
+
+          <ul className="congrat">
+            <li className="icon_li">
+              Les petits cochons ainsi que les dés 20 sont de Claire Etavard.
+            </li>
           </ul>
         </div>
 
@@ -254,12 +323,18 @@ function Credits() {
             J'ai réalisé ce site pour faire une surprise à cette association
             amie qui fête ses 20 ans, j'espère que cela aura fonctionné.
           </p>
-          <p>Il s'agit de mon 1er site réalisé toute seule, en utilisant les ressources à ma disposition.</p>
           <p>
-            C'est également mes premiers pas avec le logiciel de traitement d'image
-            GIMP.
+            Il s'agit de mon 1er site réalisé toute seule, en utilisant les
+            ressources à ma disposition.
           </p>
-          <p>J'ai fait de mon mieux afin de rendre ce site le plus accessible possible. </p>
+          <p>
+            C'est également mes premiers pas avec le logiciel de traitement
+            d'image GIMP.
+          </p>
+          <p>
+            J'ai fait de mon mieux afin de rendre ce site le plus accessible
+            possible.{" "}
+          </p>
 
           <p>J'espère que vous avez apprécié votre navigation :)</p>
           <p>

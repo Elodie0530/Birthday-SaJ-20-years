@@ -21,7 +21,7 @@ function Asso() {
             <img
               className="livre"
               src={"./src/assets/droite_cochon_livre20.png"}
-              alt="Cochon orienté vers la gauche lisant un livre, sur la couverture du côté gauche il y a deux des 6, sur la tranche est écrit 20 ans et du côté droit il y a un des 20 de jdr"
+              alt="Cochon orienté vers la gauche lisant un livre, sur la couverture du côté gauche il y a deux dés 6, sur la tranche est écrit 20 ans et du côté droit il y a un dé 20 de jdr"
             />
           </div>
 
@@ -37,8 +37,8 @@ function Asso() {
                 dans autant d'univers qu'il y a de maîtres du jeu (MJ).
               </p>
               <p>
-                Au format one shot, (c'est-à-dire, que ce n'est pas une
-                campagne), avec des scénarios court de 5 heures maximum.
+                Au format one-shot, (c'est-à-dire, que ce n'est pas une
+                campagne), avec des scénarios courts de 5 heures maximum.
               </p>
               <p>
                 Ainsi qu'un rendez-vous mensuel pour discuter entre rôlistes et
@@ -59,7 +59,7 @@ function Asso() {
               </p>
               <p>
                 Ainsi qu'un rendez-vous mensuel dans un bar de la ville pour
-                faire connaître et découvrir le jeu aux plus grand nombre.
+                faire connaître et découvrir le jeu au plus grand nombre.
               </p>
             </li>
           </ul>
@@ -84,7 +84,7 @@ function Asso() {
                 aider à monter leurs projets.
               </p>{" "}
               <p>
-                Elle propose de nombreuses parties de jeu de rôles et de
+                Elle propose de nombreuses parties de jeux de rôles et de
                 plateaux et organise des évènements gratuits afin de permettre
                 l'accès à tous sans aucune distinction.
               </p>
@@ -180,7 +180,7 @@ function Asso() {
             <img
               className="livre"
               src={"./src/assets/gauche_cochon_livre20.png"}
-              alt="Cochon orienté vers la droite lisant un livre, sur la couverture du côté gauche il y a deux des 6, sur la tranche est écrit 20 ans et du côté droit il y a un des 20 de jdr"
+              alt="Cochon orienté vers la droite lisant un livre, sur la couverture du côté gauche il y a deux dés 6, sur la tranche est écrit 20 ans et du côté droit il y a un dé 20 de jdr"
             />
           </div>
         </div>

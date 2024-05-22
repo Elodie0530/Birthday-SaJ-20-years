@@ -7,7 +7,7 @@
     p:nth-child(5) {
       /*Intro "retour en affiches [...]"*/
       text-decoration: underline;
-      text-underline-offset: 2px;
+      text-underline-offset: 4px;
       padding: 2rem 0.6rem 0rem;
     }
 
@@ -90,7 +90,7 @@
     }
 
     .intro {
-      font-size: 18px;
+      /* font-size: 18px; */
 
       p {
         padding: 0.7rem 2rem;
@@ -120,7 +120,7 @@
       }
 
       p {
-        font-size: 18px;
+        /* font-size: 18px; */
         padding: 1rem 2rem;
       }
     }
@@ -199,7 +199,7 @@
 @media screen and (min-width: 912px) {
   .nuitBlanche {
     .intro {
-      font-size: 20px;
+      /* font-size: 20px; */
 
       p {
         padding: 0.7rem 6rem;
@@ -225,7 +225,7 @@
     .nb2022,
     .nb2023 {
       p {
-        font-size: 20px;
+        /* font-size: 20px; */
         padding: 1rem 12rem;
       }
     }
@@ -372,7 +372,7 @@ resolutions above stuck in app.css-body window in 1920 */
   .nuitBlanche {
     .intro {
       p {
-        padding: 0.7rem 30rem;
+        padding: 0.7rem 28rem;
       }
     }
 

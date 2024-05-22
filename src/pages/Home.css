@@ -5,16 +5,19 @@
     color: #c21449;
   }
 
+  h3 {
+    margin: unset;
+    padding: 2rem 0rem;
+  }
+
   .gateau {
-    width: 100%;
+    width: 85%;
+    margin-top: -5rem;
   }
 
   .coeur {
-    width: 100%;
-  }
-
-  .count {
-    padding: 2em;
-    background-color: yellowgreen;
+    width: 85%;
+    margin: 0 auto;
+    padding: 4rem 0rem 2rem;
   }
 }
