@@ -1,0 +1,24 @@
+.scroll_top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.button_scroll {
+  width: 25px;
+  height: 52px;
+  background-image: url("./src/assets/icon_arrow.png");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: opacity 0.4s;
+}
+
+.button_scroll:hover,
+.button_scroll:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+}
