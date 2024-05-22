@@ -185,18 +185,20 @@ function Credits() {
                 alt="Ouvre le site nuagesdemots.fr dans une nouvelle fenêtre ou un nouvel onglet"
               />
               . et remodelé avec le logiciel GIMP.
-              <p>
-                Ils, elles ont collaboré.e.s au nuage de mots via un fil sur le
+              <div className="table_discord">
+               Ils, elles ont collaboré.e.s au nuage de mots via un fil sur le
                 discord de la Sauce aux Jeux :
                 <table>
                   <caption>
                     Propositions de mots par des membres de l'association
                   </caption>
+                  <thead>
                   <tr>
                     <th scope="col">Pseudonyme</th>
                     <th scope="col">Mot proposé</th>
                   </tr>
-
+                  </thead>
+                  <tbody>
                   <tr>
                     <td>Fabiche</td>
                     <td>Expérience</td>
@@ -216,8 +218,9 @@ function Credits() {
                     <td>Unfrogettable</td>
                     <td>Surprise</td>
                   </tr>
+                  </tbody>
                 </table>
-              </p>
+              </div>
             </li>
           </ul>
         </div>
