@@ -4,6 +4,7 @@ import Navbar from "./components/NavBar";
 import { Outlet } from "react-router-dom";
 import { Footer, Footer2 } from "./components/Footer";
 import ScrollTopButton from "./components/ScrollTopButton";
+import PagesScrollTop from "./components/PagesScrollTop";
 
 function App() {
   const location = useLocation();
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <>
+    <PagesScrollTop />
       <div>
         <Navbar />
         <Outlet />
