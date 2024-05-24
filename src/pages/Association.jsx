@@ -70,7 +70,7 @@ function Asso() {
             <img
               className="nappe_oval"
               src={"./src/assets/nappe.png"}
-              alt="test"
+              alt="Nappe quadrillée rose et blanc"
             />
 
             <div className="text_pionnier">
