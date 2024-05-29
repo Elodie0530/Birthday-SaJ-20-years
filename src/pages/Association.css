@@ -1,7 +1,10 @@
 .asso {
+  h1 {
+    padding: 1.5rem 1rem;
+  }
+
   .intoduction {
     display: grid;
-    grid-template-columns: 2fr 1fr;
     align-items: center;
     justify-items: stretch;
 
@@ -9,32 +12,34 @@
       display: flex;
       justify-content: end;
       align-items: center;
+      padding: 1.5rem 1.5rem;
     }
 
     .text_intro p {
       line-height: 1.5rem;
-      margin: 0;
+      margin: 0rem;
     }
 
     .livre20_droite {
+      width: 100%;
       justify-self: center;
+      padding: 2.5rem 0rem;
     }
 
     .livre {
-      max-width: 80%;
+      width: 80%;
       height: auto;
     }
 
     .fin_intro {
-      padding-left: 50%;
-      margin: unset;
       text-decoration: underline;
       text-underline-offset: 4px;
+      padding: 1rem 0rem;
     }
   }
 
   .actualy {
-    margin: 3rem 0rem;
+    padding: 0rem 0.3rem;
   }
 
   .pionnier {
@@ -42,7 +47,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin: 10rem 6rem 5rem;
+    margin: 5rem 1rem 5rem;
 
     .nappe {
       position: relative;
@@ -50,7 +55,6 @@
       justify-content: center;
       align-items: center;
       width: 100vh;
-      padding: 2rem;
     }
 
     .nappe_oval {
@@ -67,11 +71,11 @@
     .text_pionnier {
       position: relative;
       text-align: center;
-      padding: 1rem 5rem;
+      padding: 3rem 5rem;
     }
 
     .text_pionnier p {
-      margin: 1rem 0;
+      margin: 1rem 0rem;
     }
   }
 
@@ -85,15 +89,17 @@
   }
 
   .old_time {
+    padding: 0rem 0.3rem;
+
     .title_old {
       text-decoration: underline;
       text-underline-offset: 4px;
+      padding: 0rem 2rem 1rem;
     }
   }
 
   .you {
-    margin: 10rem 0rem 5rem;
-    align-items: center;
+    padding: 5rem 1rem 2rem;
     justify-items: stretch;
 
     .text_you {
@@ -104,29 +110,35 @@
     }
 
     .text_you p {
-      margin: 0;
-      padding: 0.5rem 0rem;
+      margin: 0rem;
+      padding: 0.5rem 1rem;
     }
 
     .livre20_gauche {
-      text-align: start;
-      padding: 2rem 4rem 0rem;
-      width: 295px;
+      width: 100%;
       height: auto;
+      text-align: center;
+      padding: 3.5rem 0rem;
     }
 
     .livre {
-      max-width: 80%;
+      width: 80%;
       height: auto;
     }
   }
 
   /*gere .actualy et .old_time*/
   ul {
+    padding: 0rem 1.3rem;
+
     li {
       position: relative;
       list-style-type: none;
       text-align: left;
+
+      p {
+        margin: unset;
+      }
 
       :nth-child(1):before {
         content: "";
@@ -144,8 +156,7 @@
       }
 
       p:nth-child(1) {
-        padding-left: 4rem;
-        padding-top: 10px;
+        padding-left: 3rem;
         margin: 2rem 1rem;
         margin-top: 3rem;
         text-decoration: underline;
@@ -155,10 +166,16 @@
       :before {
         content: "⫸";
         display: inline-block;
-        width: 40px;
+        /* width: 40px; */
         background-size: contain;
         background-repeat: no-repeat;
-        padding-left: 3rem;
+        padding-left: 2.5rem;
+        /* margin-left: -1.5rem; */
+      }
+
+      p:nth-child(2) {
+        padding-left: 5rem;
+        text-indent: -2.5rem;
       }
 
       p:nth-child(3):before {
@@ -167,12 +184,263 @@
       }
 
       p:nth-child(3) {
-        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 5rem;
+        text-indent: -2.5rem;
       }
 
-      p {
+      p:nth-child(4) {
+        padding-bottom: 2rem;
+        padding-left: 5rem;
+        text-indent: -2.5rem;
+      }
+    }
+  }
+}
+
+/* ////////////////// 411px /////////////////*/
+
+@media screen and (min-width: 411px) {
+  .asso {
+    .pionnier {
+      margin: 5rem 2rem 5rem;
+    }
+  }
+}
+
+/* ////////////////// 540px /////////////////*/
+
+@media screen and (min-width: 540px) {
+  .asso {
+    h1 {
+      padding: 1.5rem 0.5rem;
+    }
+
+    .intoduction {
+      .livre {
+        width: 60%;
+      }
+    }
+
+    .pionnier {
+      margin: 5rem 0.5rem 5rem;
+      .text_pionnier {
+        padding: 3.5rem 5rem;
+      }
+    }
+
+    .you {
+      .text_you p {
+        padding: 0.8rem 1rem;
+      }
+
+      .livre {
+        width: 60%;
+      }
+    }
+
+    /*gere .actualy et .old_time*/
+    ul {
+      padding: 0rem 3rem;
+    }
+  }
+}
+
+/* ////////////////// 768px /////////////////*/
+
+@media screen and (min-width: 768px) {
+  .asso {
+    h1 {
+      padding: 1.5rem 7rem;
+    }
+
+    .intoduction {
+      .livre {
+        width: 40%;
+      }
+    }
+
+    .pionnier {
+      margin: 5rem 1rem 5rem;
+
+      .text_pionnier {
+        padding: 3.5rem 6rem;
+      }
+    }
+
+    .you {
+      .livre {
+        width: 40%;
+      }
+    }
+
+    /*gere .actualy et .old_time*/
+    ul {
+      padding: 0rem 5rem;
+      li {
+        p {
+          padding: 0rem 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+/* ////////////////// 912px /////////////////*/
+
+@media screen and (min-width: 912px) {
+  .asso {
+    h1 {
+      padding: 1.5rem;
+    }
+
+    .intoduction {
+      .text_intro {
+        justify-content: center;
+      }
+      .livre {
+        width: 30%;
+      }
+    }
+
+    .you {
+      .livre {
+        width: 30%;
+      }
+    }
+  }
+}
+
+/* ////////////////// 1024px /////////////////*/
+
+@media screen and (min-width: 1024px) {
+  .asso {
+    .you {
+      padding: 5rem 4rem 2rem;
+    }
+
+    /*gere .actualy et .old_time*/
+    ul {
+      padding: 0rem 8rem;
+    }
+  }
+}
+
+/* ////////////////// 1280px /////////////////*/
+
+@media screen and (min-width: 1280px) {
+  .asso {
+    .intoduction {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      align-items: center;
+      justify-items: stretch;
+
+      .text_intro {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 6rem;
+        padding-right: unset;
+      }
+
+      .livre20_droite {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+      }
+
+      .livre {
+        width: 80%;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .fin_intro {
+        padding-left: 50%;
         margin: unset;
       }
     }
+
+    .actualy {
+      padding: unset;
+    }
+
+    .pionnier {
+      margin: 10rem 6rem 5rem;
+      .nappe {
+        padding: 2rem;
+      }
+
+      .text_pionnier {
+        padding: 1rem 5rem;
+      }
+    }
+
+    .old_time {
+      padding: unset;
+    }
+
+    .you {
+      padding: 10rem 2.3rem 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .text_you {
+        width: 100%;
+      }
+
+      .text_you p {
+        padding: 0.5rem 5rem;
+      }
+
+      .livre20_gauche {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+      }
+
+      .livre {
+        width: 80%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    /*gere .actualy et .old_time*/
+    ul {
+      li {
+        p:nth-child(1) {
+          padding-left: 4rem;
+          padding-top: 10px;
+          margin: 3rem 1rem 2rem;
+        }
+
+        p:nth-child(3) {
+          padding-top: unset;
+        }
+
+        p {
+          margin: unset;
+        }
+      }
+    }
+  }
+}
+
+/* ////////////////// 1920px /////////////////*/
+
+@media screen and (min-width: 1920px) {
+  asso {
+    max-width: 1920px;
+    margin: 0 auto;
   }
 }

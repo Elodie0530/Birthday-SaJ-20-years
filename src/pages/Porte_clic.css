@@ -1,9 +1,9 @@
 .porte {
   display: grid;
-  justify-content: center; /* Centre à l'horizontal*/
-  align-items: center; /* Centre à la verticale*/
   height: 100vh; /* Hauteur de la vue du navigateur */
+  place-items: center;
   margin: 0;
+  position: relative;
 
   .img {
     max-width: 100%; /*Image ajustée à la largeur de la grille */
