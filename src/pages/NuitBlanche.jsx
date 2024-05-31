@@ -4,7 +4,10 @@ function NuitBlanche() {
   return (
     <>
       <div className="nuitBlanche">
-        <h1>La Convention <span className="nameTitle">`Nuit Blanche sur l'Alsace`</span></h1>
+        <h1>
+          La Convention{" "}
+          <span className="nameTitle">`Nuit Blanche sur l'Alsace`</span>
+        </h1>
         <div>
           <div className="intro">
             <p>
@@ -34,7 +37,9 @@ function NuitBlanche() {
               Retour en affiches et en chiffres sur les Conventions des années
               passées :
             </p>
-            <p>En cliquant sur les affiches, <br></br> elles s'agrandiront</p>
+            <p>
+              En cliquant sur les affiches, <br></br> elles s'agrandiront
+            </p>
           </div>
 
           <div className="nb2015">
@@ -65,8 +70,9 @@ function NuitBlanche() {
             </p>
             <p>
               Lors de la deuxième édition, il y avait 91 joueurs avec 19 tables
-              de jeux de rôles.  <br></br> Ainsi qu'une soirée enquête “Intrigue au Manoir
-              de Kintzheim” proposée par l'association des Tisseurs d'Etoiles.
+              de jeux de rôles. <br></br> Ainsi qu'une soirée enquête “Intrigue
+              au Manoir de Kintzheim” proposée par l'association des Tisseurs
+              d'Etoiles.
             </p>
           </div>
 
@@ -82,9 +88,9 @@ function NuitBlanche() {
             </p>
             <p>
               Lors de la troisième édition, il y avait 94 joueurs avec 20 tables
-              de jeux de rôles. <br></br> Ainsi qu'une soirée enquête “Insmül, la cité
-              dont on ne parle pas” proposée par l'association des Tisseurs
-              d'Etoiles.
+              de jeux de rôles. <br></br> Ainsi qu'une soirée enquête “Insmül,
+              la cité dont on ne parle pas” proposée par l'association des
+              Tisseurs d'Etoiles.
             </p>
           </div>
 
@@ -100,9 +106,10 @@ function NuitBlanche() {
             </p>
             <p>
               Lors de la quatrième édition, il y avait 121 joueurs avec 23
-              tables de jeux de rôles. <br></br> Ainsi qu'une soirée enquête "Le drame
-              d'Ensisheim" proposée par l'association des Tisseurs d'Etoiles et
-              des animations costumées par l'association des ForgeMondes.
+              tables de jeux de rôles. <br></br> Ainsi qu'une soirée enquête "Le
+              drame d'Ensisheim" proposée par l'association des Tisseurs
+              d'Etoiles et des animations costumées par l'association des
+              ForgeMondes.
             </p>
           </div>
 
@@ -135,7 +142,7 @@ function NuitBlanche() {
             <p>
               Dans l'année 2020, un virus respiratoire contagieux de la famille
               des coronavirus<br></br> a fait des ravages en mettant le monde
-              entier à l'arrêt
+              entier à l'arrêt.
             </p>
             <p>Et de fait toutes les manifestations prévues.</p>
           </div>
@@ -188,6 +195,44 @@ function NuitBlanche() {
               Lors de la huitième édition, il y avait 69 joueurs avec 16 tables
               de jeux de rôles.<br></br> Avec des animations costumées par
               l'association des ForgeMondes.
+            </p>
+          </div>
+
+          <div className="en2024">
+            <img
+              className="posterWhiteNight"
+              src={"src/assets/2024_affiche_escapade_nocturne.png"}
+              alt="Dragon crachant du feu sortant du Fort Rapp Moltke, plusieurs personnages de jeux de rôles en action sur le parvis du fort "
+            />
+            <p>
+              Dans l'après-midi du 22 juin 2024 et la nuit qui suit<br></br> au
+              Fort Rapp Moltke de Reichstett
+            </p>
+            <p>
+              Deux événements sont organisés lors de cette 1ère édition de
+              l'Escapade Nocturne qui célèbre le 50e anniversaire de Donjons &
+              Dragons :{" "}
+            </p>
+            <p className="title_event icon_dd">La Mini-Escapade :</p>{" "}
+            <p>
+              L'association Pandrylia propose une après-midi de jeux de rôles
+              dédiée aux parents et aux enfants.{" "}
+            </p>
+            <p className="title_event icon_dd">L'Escapade Nocturne :</p>
+            <p>
+              {" "}
+              En soirée, 15 tables de jeux de rôles sont mises à disposition par
+              la Sauce aux Jeux, ainsi qu'un GN proposé par l'association les
+              Tisseurs d'Etoiles.
+            </p>{" "}
+            <p>
+              Avec également la participation des Chroniques de Nebomore pour la
+              création du lore et de l'association des ForgeMondes pour animer
+              cet univers.
+            </p>
+            <p>
+              L'aventure ne s'arrête pas là, rendez-vous pour les prochaines
+              éditions dans les années à venir ...
             </p>
           </div>
         </div>
