@@ -35,7 +35,8 @@
   .homepage,
   .association,
   .night_white,
-  .partners {
+  .partners,
+  .page_credits {
     .congrat {
       text-align: left;
       list-style-type: none;
@@ -66,6 +67,7 @@
   .association,
   .night_white,
   .partners,
+  .page_credits,
   .my_word {
     p:nth-child(1) {
       color: #fce1bb;
@@ -94,6 +96,15 @@
       border: 1px solid #a7113e;
       padding: 10px;
       text-align: center;
+    }
+  }
+
+  .page_credits {
+    li:nth-child(6) {
+      p {
+        margin-top: unset;
+        padding-left: 40px;
+      }
     }
   }
 

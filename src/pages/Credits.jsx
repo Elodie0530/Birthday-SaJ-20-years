@@ -65,8 +65,8 @@ function Credits() {
             </li>
 
             <li className="icon_li">
-              Madame Séverine M. pour ses avis sur le gâteau, la porte, ainsi
-              que ses connaissances de l'association.
+              Madame Séverine M. pour ses avis sur la porte d'entrée, le gâteau, ainsi
+              que ses connaissances de l'association ... merci d'avoir gardé le secret.
             </li>
 
             <li className="icon_li">
@@ -127,8 +127,11 @@ function Credits() {
             </li>
 
             <li className="icon_li">
-              Le logo de la Sauce aux jeux, ainsi que les cochons sont de
-              Camille Tisserand et de Claire Etavard.
+              Le logo de la Sauce aux jeux est de Camille Tisserand.
+            </li>
+
+            <li className="icon_li">
+              Les trois cochons sur l'escalier sont de Claire Etavard.
             </li>
 
             <li className="icon_li">
@@ -184,40 +187,40 @@ function Credits() {
                 src={"./src/assets/icon_link_window.png"}
                 alt="Ouvre le site nuagesdemots.fr dans une nouvelle fenêtre ou un nouvel onglet"
               />
-              . et remodelé avec le logiciel GIMP.
+              {""} et remodelé avec le logiciel GIMP.
               <div className="table_discord">
-               Ils, elles ont collaboré.e.s au nuage de mots via un fil sur le
+                Ils, elles ont collaboré.e.s au nuage de mots via un fil sur le
                 discord de la Sauce aux Jeux :
                 <table>
                   <caption>
                     Propositions de mots par des membres de l'association
                   </caption>
                   <thead>
-                  <tr>
-                    <th scope="col">Pseudonyme</th>
-                    <th scope="col">Mot proposé</th>
-                  </tr>
+                    <tr>
+                      <th scope="col">Pseudonyme</th>
+                      <th scope="col">Mot proposé</th>
+                    </tr>
                   </thead>
                   <tbody>
-                  <tr>
-                    <td>Fabiche</td>
-                    <td>Expérience</td>
-                  </tr>
+                    <tr>
+                      <td>Fabiche</td>
+                      <td>Expérience</td>
+                    </tr>
 
-                  <tr>
-                    <td>Melodies42</td>
-                    <td>Bienveillance</td>
-                  </tr>
+                    <tr>
+                      <td>Melodies42</td>
+                      <td>Bienveillance</td>
+                    </tr>
 
-                  <tr>
-                    <td>Parlons astro(nomie)</td>
-                    <td>Lasauceaujeu</td>
-                  </tr>
+                    <tr>
+                      <td>Parlons astro(nomie)</td>
+                      <td>Lasauceaujeu</td>
+                    </tr>
 
-                  <tr>
-                    <td>Unfrogettable</td>
-                    <td>Surprise</td>
-                  </tr>
+                    <tr>
+                      <td>Unfrogettable</td>
+                      <td>Surprise</td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -240,6 +243,26 @@ function Credits() {
             <li className="icon_li">
               Les têtes de cochon de face utilisées comme puces sont des
               éléments d'illustration du site Canva.
+            </li>
+
+            <li className="icon_li">
+              L'image de fond pour la nappe a été trouvée sur le site officiel
+              de{" "}
+              <a
+                className="link_site"
+                href="https://www.lasauceauxjeux.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ouvre le site officiel de la Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
+              >
+                la Sauce aux Jeux{" "}
+              </a>
+              <img
+                className="icon"
+                src={"./src/assets/icon_link_window.png"}
+                alt="Ouvre le site officiel de la Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
+              />
+              {""} et retravaillée avec le logiciel GIMP.{" "}
             </li>
 
             <li className="icon_li">
@@ -297,11 +320,35 @@ function Credits() {
             </li>
 
             <li className="icon_li">
-              L'affiche 2022 a été réalisée par Roseline Bûcher.
+              L'affiche de 2022 a été réalisée par Roseline Bûcher.
             </li>
 
             <li className="icon_li">
-              L'affiche de l'année 2023 est une illustration de William Blum.
+              L'affiche de 2023 est une illustration de William Blum.
+            </li>
+
+            <li className="icon_li">
+              L'affiche de l'année 2024 a été réalisée par Living_Cauldron.
+            </li>
+
+            <li className="icon_li">
+              Le logo officiel du jeux de rôle Dungeons & Dragons 5e édition
+              utilisé comme puce, a été trouvé sur le site{" "}
+              <a
+                className="link_site"
+                href="https://logos-world.net/dnd-dungeons-dragons-logo/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ouvre le site logos-world.net dans une nouvelle fenêtre ou un nouvel onglet"
+              >
+                logos-world.net{" "}
+              </a>
+              <img
+                className="icon"
+                src={"./src/assets/icon_link_window.png"}
+                alt="Ouvre le site logos-world.net dans une nouvelle fenêtre ou un nouvel onglet"
+              />
+              .
             </li>
           </ul>
         </div>
@@ -313,7 +360,72 @@ function Credits() {
 
           <ul className="congrat">
             <li className="icon_li">
-              Les petits cochons ainsi que les dés 20 sont de Claire Etavard.
+              Les petits cochons curieux sont de Claire Etavard.
+            </li>
+
+            <li className="icon_li">
+              Les dés 20 utilisés comme puces sont de Claire Etavard et ont été
+              retravaillés avec le logiciel GIMP.
+            </li>
+          </ul>
+        </div>
+
+        <div className="page_credits">
+          <p>
+            <b>Pour la page des crédits :</b>
+          </p>
+
+          <ul className="congrat">
+            <li className="icon_li">
+              Les dés 6 utilisés comme puces sont de Camille Tisserand.
+            </li>
+
+            <li className="icon_li">
+              Le coeur est une image composite réalisé avec le logiciel GIMP.
+            </li>
+
+            <li className="icon_li">
+              Les cochons tenant un coeur sont des éléments d'illustration du
+              site Canva.
+            </li>
+
+            <li className="icon_li">
+              Les dés 6 utilisés dans le coeur sont de Camille Tisserand et ont
+              été retravaillés avec le logiciel GIMP.
+            </li>
+
+            <li className="icon_li">
+              Les dés 6 utilisés dans le coeur sont de Camille Tisserand et ont
+              été retravaillés avec le logiciel GIMP.
+            </li>
+
+            <li className="icon_li">
+              Le meeple rouge est de DS stories trouvé sur le site{" "}
+              <a
+                className="link_site"
+                href="https://www.pexels.com/fr-fr/photo/rouge-couleur-figurine-ligne-6990037/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ouvre le site pexels.com dans une nouvelle fenêtre ou un nouvel onglet"
+              >
+                pexels.com{" "}
+              </a>
+              <img
+                className="icon"
+                src={"./src/assets/icon_link_window.png"}
+                alt="Ouvre le site pexels.com dans une nouvelle fenêtre ou un nouvel onglet"
+              />
+              .
+              <p>
+                Cette image a été retravaillés et triplé grâce au logiciel GIMP
+                afin de réalisé les autres meeples de couleurs.{" "}
+              </p>
+            </li>
+
+            <li className="icon_li">
+              La fléche jaune présente sur le côté droit permettant de remonter
+              en haut des pages est une image du site Canva retravaillé avec le
+              logiciel GIMP.
             </li>
           </ul>
         </div>
