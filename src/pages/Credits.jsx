@@ -16,14 +16,14 @@ function Credits() {
               href="https://www.lasauceauxjeux.com/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Ouvre le site officiel de la Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
+              aria-label="Ouvre le site officiel de La Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
             >
-              la Sauce aux Jeux{" "}
+              La Sauce aux Jeux{" "}
             </a>
             <img
               className="icon"
               src={"./src/assets/icon_link_window.png"}
-              alt="Ouvre le site officiel de la Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
+              alt="Ouvre le site officiel de La Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
             />
             .{" "}
           </p>
@@ -43,7 +43,7 @@ function Credits() {
             </li>
 
             <li className="icon_li">
-              Madame Camille Tisserand, dessinatrice officielle de la Sauce aux
+              Madame Camille Tisserand, dessinatrice officielle de La Sauce aux
               Jeux.{" "}
               <p>
                 Le logo de l'association ainsi que les "petits cochons" présents
@@ -65,8 +65,9 @@ function Credits() {
             </li>
 
             <li className="icon_li">
-              Madame Séverine M. pour ses avis sur la porte d'entrée, le gâteau, ainsi
-              que ses connaissances de l'association ... merci d'avoir gardé le secret.
+              Madame Séverine M. pour ses avis sur la porte d'entrée, le gâteau,
+              ainsi que ses connaissances de l'association ... et merci d'avoir
+              gardé le secret.
             </li>
 
             <li className="icon_li">
@@ -127,7 +128,7 @@ function Credits() {
             </li>
 
             <li className="icon_li">
-              Le logo de la Sauce aux jeux est de Camille Tisserand.
+              Le logo de La Sauce aux jeux est de Camille Tisserand.
             </li>
 
             <li className="icon_li">
@@ -190,7 +191,7 @@ function Credits() {
               {""} et remodelé avec le logiciel GIMP.
               <div className="table_discord">
                 Ils, elles ont collaboré.e.s au nuage de mots via un fil sur le
-                discord de la Sauce aux Jeux :
+                discord de La Sauce aux Jeux :
                 <table>
                   <caption>
                     Propositions de mots par des membres de l'association
@@ -253,27 +254,27 @@ function Credits() {
                 href="https://www.lasauceauxjeux.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Ouvre le site officiel de la Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
+                aria-label="Ouvre le site officiel de La Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
               >
-                la Sauce aux Jeux{" "}
+                La Sauce aux Jeux{" "}
               </a>
               <img
                 className="icon"
                 src={"./src/assets/icon_link_window.png"}
-                alt="Ouvre le site officiel de la Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
+                alt="Ouvre le site officiel de La Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
               />
               {""} et retravaillée avec le logiciel GIMP.{" "}
             </li>
 
             <li className="icon_li">
-              L'ancien logo de la Sauce aux Jeux a été réalisé par Mott.
+              L'ancien logo de La Sauce aux Jeux a été réalisé par Mott.
             </li>
           </ul>
         </div>
 
         <div className="night_white">
           <p>
-            <b>Pour la page convention nuit blanche sur l'Alsace :</b>
+            <b>Pour la page convention Nuit Blanche sur l'Alsace :</b>
           </p>
 
           <ul className="congrat">
@@ -387,11 +388,6 @@ function Credits() {
             <li className="icon_li">
               Les cochons tenant un coeur sont des éléments d'illustration du
               site Canva.
-            </li>
-
-            <li className="icon_li">
-              Les dés 6 utilisés dans le coeur sont de Camille Tisserand et ont
-              été retravaillés avec le logiciel GIMP.
             </li>
 
             <li className="icon_li">

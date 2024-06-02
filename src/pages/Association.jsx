@@ -102,7 +102,7 @@ function Asso() {
 
             <img
               src={"./src/assets/ancien_logo.png"}
-              alt="Ancien logo de la Sauce aux Jeux, représentant un cochon couché sur un échiquier tirant la langue, avec devant lui trois cartes à jouer ainsi qu'une console de jeu"
+              alt="Ancien logo de La Sauce aux Jeux, représentant un cochon couché sur un échiquier tirant la langue, avec devant lui trois cartes à jouer ainsi qu'une console de jeu"
             />
           </figure>
         </div>

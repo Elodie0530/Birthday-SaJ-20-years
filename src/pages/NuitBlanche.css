@@ -9,7 +9,6 @@
       text-decoration: underline;
       text-underline-offset: 4px;
       padding: 2rem 1rem 1rem;
-      /* padding: 2rem 0.6rem 0rem; */
     }
 
     p:nth-child(6) {
@@ -588,11 +587,11 @@
   }
 }
 
-/* //////////////1920px/////////
+/* //////////////1920px///////// */
 
-resolutions above stuck in app.css-body window in 1920 */
 @media screen and (min-width: 1920px) {
   .nuitBlanche {
+    /*resolutions blocked window in 1920 */
     max-width: 1920px;
     margin: 0 auto;
 

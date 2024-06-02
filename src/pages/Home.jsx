@@ -6,7 +6,7 @@ function Home() {
       <div className="home">
         <h1>Surprise</h1>
 
-        <h3>Bon anniversaire la Sauce aux Jeux</h3>
+        <h3>Bon anniversaire La Sauce aux Jeux</h3>
 
         <div className="div_gateau">
           <img
@@ -20,7 +20,7 @@ function Home() {
           <img
             className="img_coeur"
             src={"./src/assets/coeur_nuage_mots.png"}
-            alt="Coeur ombragée comprenant un nuage de mots sur la Sauce aux Jeux"
+            alt="Coeur ombragée comprenant un nuage de mots sur La Sauce aux Jeux"
           />
         </div>
       </div>
