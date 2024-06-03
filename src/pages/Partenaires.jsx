@@ -15,7 +15,9 @@ function Partenaires() {
             Voici une liste non exhaustive des endroits où vous avez pu les
             rencontrer (certains ont depuis fermé)
             <br></br>
-            <i>(classés par ordre alphabétique)</i> :
+            <span className="phrase_italique">
+              <i>(classés par ordre alphabétique)</i> :{" "}
+            </span>
           </p>
         </div>
 
@@ -147,7 +149,7 @@ function Partenaires() {
         <div className="medias">
           <p>
             <b>
-              Les médias ayant contribués à faire connaitre La Sauce aux Jeux :
+              Les médias ayant contribués à faire connaître La Sauce aux Jeux :
             </b>
           </p>
           <ul className="media">

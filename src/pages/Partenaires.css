@@ -1,36 +1,46 @@
 .partenaires {
+  .intro {
+    padding: 0rem 2rem;
 
-  .partner,
-  .lieu,
-  .asso,
-  .festival,
-  .autre,
-  .bar,
-  .media {
-    text-align: left;
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    .icon_li::before {
-      content: "";
+    .phrase_italique {
       display: inline-block;
-      height: 35px;
-      width: 40px;
-      background-image: url(../assets/des20.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-      padding-left: 1.5rem;
+      padding-top: 1rem;
     }
   }
 
-  li {
-    margin-bottom: 2rem;
-    padding-left: 25%;
+  .institution {
+    position: relative;
   }
-  
-  ul {
-    padding: unset;
+
+  .cochons {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .cochon_gauche,
+  .cochon_droite {
+    width: 20%; /* Ajustez la taille de l'image */
+  }
+
+  .cochon_gauche {
+    padding-left: 3px;
+  }
+
+  .cochon_droite {
+    padding-right: 3px;
+  }
+
+  .cochon_gauche img,
+  .cochon_droite img {
+    /*images responsives au ratio*/
+    width: 100%;
+    height: auto;
   }
 
   .institution,
@@ -45,33 +55,344 @@
       background-color: #a9083d;
       margin-top: 4rem;
       margin-bottom: 2rem;
+      padding: 0.2rem 2rem;
     }
   }
 
-  .institution {
-    position: relative;
+  ul {
+    padding: 0rem 1rem 0rem 4rem;
+    text-indent: -3rem;
   }
 
-  .cochons {
-    position: absolute;
-    /* top: -90px; */
-    top: -105px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  li {
+    margin-bottom: 2rem;
   }
 
-  .cochon_gauche,
-  .cochon_droite {
-    width: 12%; /* Ajustez la taille de l'image ici c'était 10 de base */
-  }
+  .partner,
+  .lieu,
+  .asso,
+  .festival,
+  .autre,
+  .bar,
+  .media {
+    text-align: left;
+    list-style-type: none;
 
-  .cochon_gauche img,
-  .cochon_droite img {
-    /*images responsives au ratio*/
-    width: 100%;
-    height: auto;
+    .text_li::before {
+      content: "";
+      display: inline-block;
+      height: 35px;
+      width: 40px;
+      background-image: url(../assets/des20.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding-left: 0.5rem;
+    }
+  }
+}
+
+/* //////////////353px///////// */
+
+@media screen and (min-width: 353px) {
+  .partenaires {
+    .intro {
+      padding: 0rem 1.5rem;
+    }
+
+    .cochons {
+      top: -35px;
+    }
+
+    ul {
+      padding: 0rem 1.5rem 0rem 4rem;
+      text-indent: -3rem;
+    }
+
+    .institution,
+    .lieux,
+    .assos,
+    .festivals,
+    .autres,
+    .bars,
+    .medias {
+      p:nth-child(1) {
+        padding: 0.2rem 3.1rem;
+      }
+    }
+  }
+}
+
+/* //////////////375px///////// */
+
+@media screen and (min-width: 375px) {
+  .partenaires {
+    ul {
+      padding: 0rem 2.5rem 0rem 4rem;
+    }
+
+    .institution,
+    .lieux,
+    .assos,
+    .festivals,
+    .autres,
+    .bars,
+    .medias {
+      p:nth-child(1) {
+        padding: 0.2rem 3.5rem;
+      }
+    }
+  }
+}
+
+/* //////////////390px///////// */
+
+@media screen and (min-width: 390px) {
+  .partenaires {
+    .cochons {
+      top: -40px;
+    }
+
+    ul {
+      padding: 0rem 3.5rem 0rem 4rem;
+    }
+  }
+}
+
+/* //////////////411px///////// */
+
+@media screen and (min-width: 411px) {
+  .partenaires {
+    .intro {
+      padding: 0rem 3rem;
+    }
+
+    ul {
+      padding: 0rem 4.6rem 0rem 4rem;
+    }
+  }
+}
+
+/* //////////////414px///////// */
+
+@media screen and (min-width: 414px) {
+  .partenaires {
+    .intro {
+      padding: 0rem 3.2rem;
+    }
+
+    ul {
+      padding: 0rem 2rem 0rem 4rem;
+    }
+  }
+}
+
+/* //////////////540px///////// */
+
+@media screen and (min-width: 540px) {
+  .partenaires {
+    .intro {
+      padding: 0rem 6.3rem;
+    }
+
+    .cochons {
+      top: -55px;
+    }
+
+    ul {
+      padding: 0rem 1rem 0rem 6rem;
+      text-indent: -4rem;
+    }
+
+    .institution,
+    .lieux,
+    .assos,
+    .festivals,
+    .autres,
+    .bars,
+    .medias {
+      p:nth-child(1) {
+        padding: 0.2rem 2rem;
+      }
+    }
+
+    .partner,
+    .lieu,
+    .asso,
+    .festival,
+    .autre,
+    .bar,
+    .media {
+      .text_li::before {
+        padding-left: 1.5rem;
+      }
+    }
+  }
+}
+
+/* //////////////600px///////// */
+
+@media screen and (min-width: 600px) {
+  .partenaires {
+    .intro {
+      padding: 0rem 4rem;
+    }
+
+    .cochons {
+      top: -60px;
+    }
+  }
+}
+
+/* //////////////768px///////// */
+
+@media screen and (min-width: 768px) {
+  .partenaires {
+    .intro {
+      padding: 0rem 7rem;
+    }
+
+    .cochons {
+      top: -75px;
+    }
+
+    ul {
+      padding: 0rem 1.5rem 0rem 1rem;
+    }
+
+    li {
+      margin-bottom: 2rem;
+      padding-left: 25%;
+    }
+
+    .partner,
+    .lieu,
+    .asso,
+    .festival,
+    .autre,
+    .bar,
+    .media {
+      text-align: left;
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      .text_li::before {
+        padding-left: 1.5rem;
+      }
+    }
+  }
+}
+
+/* //////////////912px///////// */
+
+@media screen and (min-width: 912px) {
+  .partenaires {
+    .intro {
+      padding: 0rem 11rem;
+    }
+
+    .cochons {
+      top: -90px;
+    }
+
+    li {
+      padding-left: 28%;
+    }
+  }
+}
+
+/* //////////////1024px///////// */
+
+@media screen and (min-width: 1024px) {
+  .partenaires {
+    .cochons {
+      top: -95px;
+    }
+
+    li {
+      padding-left: 30%;
+    }
+  }
+}
+
+/* //////////////1280px///////// */
+
+@media screen and (min-width: 1280px) {
+  .partenaires {
+    .intro {
+      padding: 0rem 21rem;
+    }
+
+    .cochons {
+      top: -120px;
+    }
+
+    li {
+      padding-left: 25%;
+    }
+  }
+}
+
+/* //////////////1366px///////// */
+
+@media screen and (min-width: 1366px) {
+  .partenaires {
+    .intro {
+      padding: 0rem 16rem;
+    }
+
+    .cochons {
+      top: -125px;
+    }
+
+    ul {
+      padding: unset;
+    }
+  }
+}
+
+/* //////////////1400px///////// */
+
+@media screen and (min-width: 1400px) {
+  .partenaires {
+    .cochons {
+      top: -130px;
+    }
+    li {
+      padding-right: 0.5rem;
+    }
+  }
+}
+
+/* //////////////1600px///////// */
+
+@media screen and (min-width: 1600px) {
+  .partenaires {
+    .cochons {
+      top: -150px;
+    }
+  }
+}
+
+/* //////////////1920px///////// */
+
+@media screen and (min-width: 1920px) {
+  /*resolutions blocked window in 1920 */
+  .partenaires {
+    max-width: 1920px;
+    margin: 0 auto;
+
+    .intro {
+      padding: unset;
+    }
+
+    .cochons {
+      top: -105px;
+    }
+
+    .cochon_gauche,
+    .cochon_droite {
+      width: 12%;
+    }
   }
 }
