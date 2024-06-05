@@ -7,6 +7,7 @@ function Credits() {
         <h1>Crédits</h1>
         <div className="intro">
           <p>Je vais décrire ici les outils ainsi que les sources utilisées.</p>
+
           <p>
             Les informations textuelles et visuelles de ce site ont été
             réutilisées à partir des réseaux de l'association, notamment du site
@@ -27,7 +28,10 @@ function Credits() {
             />
             .{" "}
           </p>
-          <p>Sauf mentions contraires ci-dessous :</p>
+
+          <span className="fin_intro">
+            Sauf mentions contraires ci-dessous :
+          </span>
         </div>
 
         <div className="people">
@@ -71,8 +75,12 @@ function Credits() {
             </li>
 
             <li className="icon_li">
-              Madame Catherine S. pour notre discussions sur comment faire au
+              Madame Catherine S. pour notre discussion sur comment faire au
               mieux le dessin de la porte.
+            </li>
+
+            <li className="icon_li">
+              Madame Christiane J. pour son soutien et ses avis sur le projet.
             </li>
           </ul>
         </div>
@@ -81,7 +89,9 @@ function Credits() {
           <p>
             <b>Pour la page d'entrée :</b>
           </p>
+
           <p>C'est une image composite réalisée avec le logiciel GIMP</p>
+
           <ul className="congrat">
             <li className="icon_li">
               Le Cthulhu a été fait par Reveron966, avec une image générée par
@@ -190,8 +200,11 @@ function Credits() {
               />
               {""} et remodelé avec le logiciel GIMP.
               <div className="table_discord">
-                Ils, elles ont collaboré.e.s au nuage de mots via un fil sur le
-                discord de La Sauce aux Jeux :
+                <p className="nuage">
+                  Ils, elles ont collaboré.e.s au nuage de mots via un fil sur
+                  le discord de La Sauce aux Jeux :
+                </p>
+
                 <table>
                   <caption>
                     Propositions de mots par des membres de l'association
@@ -236,7 +249,6 @@ function Credits() {
 
           <ul className="congrat">
             <li className="icon_li">
-              {" "}
               Les cochons tenant les livres sont des images de Claire Etavard,
               les livres ont été retravaillés avec le logiciel GIMP.
             </li>
@@ -430,24 +442,29 @@ function Credits() {
           <p>
             <b>Mon petit mot</b>
           </p>
+
           <p>
             J'ai réalisé ce site pour faire une surprise à cette association
             amie qui fête ses 20 ans, j'espère que cela aura fonctionné.
           </p>
+
           <p>
             Il s'agit de mon 1er site réalisé toute seule, en utilisant les
             ressources à ma disposition.
           </p>
+
           <p>
             C'est également mes premiers pas avec le logiciel de traitement
             d'image GIMP.
           </p>
+
           <p>
             J'ai fait de mon mieux afin de rendre ce site le plus accessible
             possible.{" "}
           </p>
 
           <p>J'espère que vous avez apprécié votre navigation :)</p>
+
           <p>
             Et n'oubliez pas : "L'ingrédient indispensable à une bonne table,
             c'est vous !"

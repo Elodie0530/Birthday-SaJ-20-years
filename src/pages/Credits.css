@@ -1,33 +1,26 @@
 .credits {
   .intro {
-    p:nth-child(3) {
+    padding: 0rem 0.5rem;
+
+    .fin_intro {
       text-decoration: underline;
       text-underline-offset: 4px;
+      display: inline-block;
+      padding: 1rem 3rem 0rem;
     }
   }
+
   .link_site {
     color: black;
     text-decoration-color: #a7113e;
   }
+
   .link_site:hover {
     background-color: #f7b7b4;
   }
 
   .icon {
     width: 1em;
-  }
-
-  .people {
-    p:nth-child(1) {
-      margin-top: 4rem;
-    }
-
-    li:nth-child(2) {
-      p {
-        margin-top: unset;
-        padding-left: 40px;
-      }
-    }
   }
 
   .people,
@@ -40,11 +33,13 @@
     .congrat {
       text-align: left;
       list-style-type: none;
+      padding: 0rem 1.3rem 0rem 4rem;
+      text-indent: -2.5rem;
 
       .icon_li::before {
         content: "";
         display: inline-block;
-        height: 35px;
+        height: 40px;
         width: 40px;
         background-image: url(../assets/des6.png);
         background-size: contain;
@@ -53,11 +48,6 @@
 
       li {
         margin-bottom: 2rem;
-      }
-
-      .table_discord {
-        padding-left: 40px;
-        margin-top: unset;
       }
     }
   }
@@ -72,18 +62,49 @@
     p:nth-child(1) {
       color: #fce1bb;
       background-color: #a9083d;
+      margin: 4rem 0rem 2rem;
+      padding: 2px 0px;
+    }
+  }
+
+  .people {
+    p:nth-child(1) {
       margin-top: 4rem;
-      margin-bottom: 2rem;
+      padding: 0rem 2rem 1rem;
+    }
+
+    li:nth-child(2) {
+      p {
+        margin-top: unset;
+        padding: unset;
+        text-indent: 0rem;
+      }
+    }
+  }
+
+  .entree {
+    p:nth-child(2) {
+      padding: 0rem 2rem;
     }
   }
 
   .homepage {
-    p:nth-child(3) {
-      padding: 0px 40px 0px;
+    .table_discord {
+      margin-top: unset;
+
+      .nuage {
+        background-color: #fce1bb;
+        color: black;
+        margin: 2.5rem 0rem 1rem;
+        text-indent: 0rem;
+      }
     }
 
     table {
       border-collapse: collapse;
+      width: auto;
+      /*center table discord*/
+      transform: translateX(-12%);
     }
 
     caption {
@@ -99,18 +120,28 @@
     }
   }
 
+  .night_white {
+    p:nth-child(1) {
+      padding: 2px 42px;
+    }
+  }
+
   .page_credits {
-    li:nth-child(6) {
+    li:nth-child(5) {
       p {
         margin-top: unset;
-        padding-left: 40px;
+        text-indent: 0rem;
       }
     }
   }
 
   .my_word {
+    p {
+      padding: 0rem 0.5rem;
+    }
+
     p:nth-child(7) {
-      margin-top: 2rem;
+      margin: 2rem 0.5rem 0rem;
       color: #c21449;
       display: inline-block;
       padding: 5px;
@@ -118,8 +149,575 @@
       box-shadow: 2px 1px 2px 0px #3b2a40, 0em -2px 2em 7px gray;
       border-radius: 20px / 10px;
     }
+
     .coeur_credit {
       margin-top: 1rem;
+      width: 100%;
     }
+  }
+}
+
+/* //////////////353px///////// */
+
+@media screen and (min-width: 353px) {
+  .credits {
+    .intro {
+      padding: 0rem 1rem;
+
+      .fin_intro {
+        padding: 1rem 4rem 0rem;
+      }
+    }
+
+    .entree {
+      p:nth-child(2) {
+        padding: 0rem 3rem;
+      }
+    }
+
+    .homepage {
+      table {
+        /*center table discord*/
+        transform: translateX(-10%);
+      }
+    }
+
+    .night_white {
+      p:nth-child(1) {
+        padding: 2px 59px;
+      }
+    }
+
+    .my_word {
+      p {
+        padding: 0rem 2rem;
+      }
+
+      p:nth-child(7) {
+        margin: 2rem 0.5rem 0rem;
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+
+/* //////////////360px///////// */
+
+@media screen and (min-width: 360px) {
+  .credits {
+    .intro {
+      padding: 0rem 1.7rem;
+
+      .fin_intro {
+        padding: 1rem 3rem 0rem;
+      }
+    }
+
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 1.5rem 0rem 4rem;
+      }
+    }
+
+    .homepage {
+      table {
+        /*center table discord*/
+        transform: translateX(-7%);
+      }
+    }
+  }
+}
+
+/* //////////////375px///////// */
+
+@media screen and (min-width: 375px) {
+  .credits {
+    .intro {
+      padding: 0rem 1.7rem;
+
+      .fin_intro {
+        padding: 1rem 3rem 0rem;
+      }
+    }
+
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 2.5rem 0rem 4rem;
+      }
+    }
+
+    .my_word {
+      p {
+        padding: 0rem 2.4rem;
+      }
+
+      p:nth-child(7) {
+        padding: 5px 20px;
+      }
+    }
+  }
+}
+
+/* //////////////390px///////// */
+
+@media screen and (min-width: 390px) {
+  .credits {
+    .intro {
+      padding: 0rem 1rem;
+
+      .fin_intro {
+        padding: 1rem 4.8rem 0rem;
+      }
+    }
+
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 3.5rem 0rem 4rem;
+      }
+    }
+
+    .entree {
+      p:nth-child(2) {
+        padding: 0rem 4.9rem;
+      }
+    }
+
+    .homepage {
+      table {
+        /*center table discord*/
+        transform: translateX(-4%);
+      }
+    }
+
+    .night_white {
+      p:nth-child(1) {
+        padding: 2px 77px;
+      }
+    }
+
+    .my_word {
+      p {
+        padding: 0rem 2.9rem;
+      }
+
+      p:nth-child(7) {
+        padding: 5px 45px;
+      }
+    }
+  }
+}
+
+/* //////////////393px///////// */
+
+@media screen and (min-width: 393px) {
+  .credits {
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 3.5rem 0rem 4rem;
+      }
+    }
+  }
+}
+
+/* //////////////411px///////// */
+
+@media screen and (min-width: 411px) {
+  .credits {
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 3.6rem 0rem 5rem;
+        text-indent: -3.5rem;
+      }
+
+      .icon_li::before {
+        padding: 0rem 0.5rem;
+      }
+    }
+
+    .people {
+      p:nth-child(1) {
+        margin-top: 4rem;
+        padding: 0rem 4.9rem 1rem;
+      }
+    }
+
+    .my_word {
+      p {
+        padding: 0rem 3.5rem;
+      }
+    }
+  }
+}
+
+/* //////////////412px///////// */
+
+@media screen and (min-width: 412px) {
+  .credits {
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 2.2rem 0rem 5rem;
+      }
+    }
+
+    .homepage {
+      table {
+        transform: translateX(-7%);
+      }
+    }
+  }
+}
+
+/* //////////////414px///////// */
+
+@media screen and (min-width: 414px) {
+  .credits {
+    .intro {
+      .fin_intro {
+        padding: 1rem 5.6rem 0rem;
+      }
+    }
+
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 0.7rem 0rem 5rem;
+      }
+    }
+  }
+}
+
+/* //////////////540px///////// */
+
+@media screen and (min-width: 540px) {
+  .credits {
+    .entree {
+      p:nth-child(2) {
+        padding: 0rem 0rem 1rem;
+      }
+    }
+
+    .people {
+      p:nth-child(1) {
+        padding: 0rem 9rem 1rem;
+      }
+    }
+
+    .homepage {
+      table {
+        transform: translateX(10%);
+      }
+    }
+
+    .night_white {
+      p:nth-child(1) {
+        padding: 2px 0px;
+      }
+    }
+
+    .my_word {
+      p {
+        padding: 0rem 5rem;
+      }
+
+      p:nth-child(7) {
+        padding: 5px 121px;
+      }
+    }
+  }
+}
+
+/* //////////////600px///////// */
+
+@media screen and (min-width: 600px) {
+  .credits {
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 1.9rem 0rem 4rem;
+        text-indent: -3.6rem;
+      }
+    }
+
+    .homepage {
+      table {
+        transform: translateX(25%);
+      }
+    }
+
+    .my_word {
+      p:nth-child(7) {
+        padding: 5px 131px;
+      }
+    }
+  }
+}
+
+/* //////////////768px///////// */
+
+@media screen and (min-width: 768px) {
+  .credits {
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 5% 0rem 5rem;
+      }
+    }
+
+    .people {
+      p:nth-child(1) {
+        padding: unset;
+      }
+    }
+
+    .homepage {
+      .table_discord {
+        .nuage {
+          padding: 0rem 13rem 0rem 0rem;
+        }
+      }
+
+      table {
+        transform: translateX(50%);
+      }
+    }
+
+    .my_word {
+      p {
+        padding: 0rem 3%;
+      }
+      p:nth-child(7) {
+        padding: 5px;
+      }
+    }
+  }
+}
+
+/* //////////////820px///////// */
+
+@media screen and (min-width: 820px) {
+  .credits {
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 0.5rem 0rem 4rem;
+      }
+    }
+  }
+}
+
+/* //////////////912px///////// */
+
+@media screen and (min-width: 912px) {
+  .credits {
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 2rem 0rem 4rem;
+      }
+    }
+
+    .homepage {
+      .table_discord {
+        .nuage {
+          padding: unset;
+        }
+      }
+
+      table {
+        transform: unset;
+      }
+    }
+
+    .my_word {
+      p {
+        padding: 0rem 6rem;
+      }
+      .coeur_credit {
+        margin-top: 1rem;
+        width: unset;
+      }
+    }
+  }
+}
+
+/* //////////////1024px///////// */
+
+@media screen and (min-width: 1024px) {
+  .credits {
+    .my_word {
+      p {
+        padding: 0rem 9rem;
+      }
+    }
+  }
+}
+
+/* //////////////1280px///////// */
+
+@media screen and (min-width: 1280px) {
+  .credits {
+    .intro {
+      padding: 0rem 13rem;
+    }
+
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 0.5rem 0rem 4.5rem;
+      }
+    }
+  }
+}
+
+/* //////////////1400px///////// */
+
+@media screen and (min-width: 1400px) {
+  .credits {
+    .intro {
+      padding: 0rem 16.5rem;
+    }
+
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 0rem 0rem 6rem;
+
+        .icon_li::before {
+          padding: 0rem 1rem;
+        }
+      }
+    }
+
+    .people {
+      li:nth-child(2) {
+        p {
+          padding: 0rem 1rem;
+        }
+      }
+    }
+
+    .homepage {
+      .table_discord {
+        .nuage {
+          margin: unset;
+          padding: 2.5rem 0rem 1rem 1rem;
+        }
+      }
+
+      table {
+        margin-left: 1rem;
+      }
+    }
+
+    .page_credits {
+      & li:nth-child(5) {
+        p {
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+}
+
+/* //////////////1600px///////// */
+
+@media screen and (min-width: 1600px) {
+  .credits {
+    .intro {
+      padding: unset;
+    }
+
+    .people,
+    .entree,
+    .homepage,
+    .association,
+    .night_white,
+    .partners,
+    .page_credits {
+      .congrat {
+        padding: 0rem 0rem 0rem 8rem;
+      }
+    }
+  }
+}
+
+/* //////////////1920px///////// */
+
+@media screen and (min-width: 1920px) {
+  /*resolutions blocked window in 1920 */
+  .credits {
+    max-width: 1920px;
+    margin: 0 auto;
   }
 }
