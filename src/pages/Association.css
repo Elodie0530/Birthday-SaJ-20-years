@@ -142,7 +142,7 @@
 
       :nth-child(1):before {
         content: "";
-        background-image: url(../assets/tete_cochon_face.png);
+        background-image: url(../assets/page_association/tete_cochon_face.png);
         display: inline-block;
         height: 35px;
         width: 40px;

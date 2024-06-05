@@ -45,7 +45,7 @@ function NuitBlanche() {
           <div className="nb2015">
             <img
               className="posterWhiteNight"
-              src={"src/assets/2015_affiche_nuit_blanche.jpeg"}
+              src={"src/assets/page_night_white/2015_affiche_nuit_blanche.jpeg"}
               alt="Cthulhu face au château du Haut-Koenigsbourg une nuit de pleine lune"
             />
             <p>
@@ -61,7 +61,7 @@ function NuitBlanche() {
           <div className="nb2016">
             <img
               className="posterWhiteNight"
-              src={"src/assets/2016_affiche_nuit_blanche.jpeg"}
+              src={"src/assets/page_night_white/2016_affiche_nuit_blanche.jpeg"}
               alt="Tentacules de Cthulhu, un fantôme et une fée dans une bibliothèque"
             />
             <p>
@@ -79,7 +79,7 @@ function NuitBlanche() {
           <div className="nb2017">
             <img
               className="posterWhiteNight"
-              src={"src/assets/2017_affiche_nuit_blanche.jpeg"}
+              src={"src/assets/page_night_white/2017_affiche_nuit_blanche.jpeg"}
               alt="Cthulhu sur les hauteurs du vallon enveloppant de sa brume un village dans la vallée, le château du Haut-Koenigsbourg surplombé d’un dragon en arrière plan"
             />
             <p>
@@ -97,7 +97,7 @@ function NuitBlanche() {
           <div className="nb2018">
             <img
               className="posterWhiteNight"
-              src={"src/assets/2018_affiche_nuit_blanche.jpeg"}
+              src={"src/assets/page_night_white/2018_affiche_nuit_blanche.jpeg"}
               alt="Cthulhu à l’assaut du Fort Rapp Moltke en flamme des humains s’échappant, cigogne ayant des tentacules à la place du bec"
             />
             <p>
@@ -116,7 +116,7 @@ function NuitBlanche() {
           <div className="nb2019">
             <img
               className="posterWhiteNight"
-              src={"src/assets/2019_affiche_nuit_blanche.png"}
+              src={"src/assets/page_night_white/2019_affiche_nuit_blanche.png"}
               alt="Corps de ferme à colombages remplis de créatures surnaturelles, une famille est assise sur un banc au premier plan"
             />
             <p>
@@ -136,7 +136,7 @@ function NuitBlanche() {
           <div className="nb2020">
             <img
               className="posterWhiteNight"
-              src={"src/assets/coronavirus_masque.png"}
+              src={"src/assets/page_night_white/coronavirus_masque.png"}
               alt="Coronavirus personnifié avec des têtes de mort dans les yeux et un masque chirurgical sur la bouche"
             />
             <p>
@@ -150,7 +150,7 @@ function NuitBlanche() {
           <div className="nb2021">
             <img
               className="posterWhiteNight"
-              src={"src/assets/2021_affiche_nuit_blanche.jpeg"}
+              src={"src/assets/page_night_white/2021_affiche_nuit_blanche.jpeg"}
               alt="Personnage assis portant un masque à gaz, une robe noire à collerette avec des tentacules dans le dos"
             />
             <p>
@@ -167,7 +167,7 @@ function NuitBlanche() {
           <div className="nb2022">
             <img
               className="posterWhiteNight"
-              src={"src/assets/2022_affiche_nuit_blanche.jpeg"}
+              src={"src/assets/page_night_white/2022_affiche_nuit_blanche.jpeg"}
               alt="Fille en tenue d’alsacienne, portant un parapluie ainsi qu’un panier et une poupée, se promenant dans les rues d’un village encerclée par des tentacules"
             />
             <p>
@@ -184,7 +184,7 @@ function NuitBlanche() {
           <div className="nb2023">
             <img
               className="posterWhiteNight"
-              src={"src/assets/2023_affiche_nuit_blanche.jpeg"}
+              src={"src/assets/page_night_white/2023_affiche_nuit_blanche.jpeg"}
               alt="Cthulhu arpentant une ville lors de la pleine lune"
             />
             <p>
@@ -201,7 +201,9 @@ function NuitBlanche() {
           <div className="en2024">
             <img
               className="posterWhiteNight"
-              src={"src/assets/2024_affiche_escapade_nocturne.png"}
+              src={
+                "src/assets/page_night_white/2024_affiche_escapade_nocturne.png"
+              }
               alt="Dragon crachant du feu sortant du Fort Rapp Moltke, plusieurs personnages de jeux de rôles en action sur le parvis du fort "
             />
             <p>
