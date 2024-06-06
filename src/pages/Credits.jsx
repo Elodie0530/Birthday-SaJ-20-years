@@ -23,7 +23,7 @@ function Credits() {
             </a>
             <img
               className="icon"
-              src={"./src/assets/page_credits/icon_link_window.png"}
+              src={"/page_credits/icon_link_window.png"}
               alt="Ouvre le site officiel de La Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
             />
             .{" "}
@@ -107,7 +107,7 @@ function Credits() {
               </a>
               <img
                 className="icon"
-                src={"./src/assets/page_credits/icon_link_window.png"}
+                src={"/page_credits/icon_link_window.png"}
                 alt="Ouvre le site freepik dans une nouvelle fenêtre ou un nouvel onglet"
               />
               .{" "}
@@ -131,7 +131,7 @@ function Credits() {
               </a>
               <img
                 className="icon"
-                src={"./src/assets/page_credits/icon_link_window.png"}
+                src={"/page_credits/icon_link_window.png"}
                 alt="Ouvre le site fr.123rf dans une nouvelle fenêtre ou un nouvel onglet"
               />
               .{" "}
@@ -158,7 +158,7 @@ function Credits() {
               </a>
               <img
                 className="icon"
-                src={"./src/assets/page_credits/icon_link_window.png"}
+                src={"/page_credits/icon_link_window.png"}
                 alt="Ouvre le site istockphoto.com dans une nouvelle fenêtre ou un nouvel onglet"
               />
               .{" "}
@@ -195,7 +195,7 @@ function Credits() {
               </a>
               <img
                 className="icon"
-                src={"./src/assets/page_credits/icon_link_window.png"}
+                src={"/page_credits/icon_link_window.png"}
                 alt="Ouvre le site nuagesdemots.fr dans une nouvelle fenêtre ou un nouvel onglet"
               />
               {""} et remodelé avec le logiciel GIMP.
@@ -272,7 +272,7 @@ function Credits() {
               </a>
               <img
                 className="icon"
-                src={"./src/assets/page_credits/icon_link_window.png"}
+                src={"/page_credits/icon_link_window.png"}
                 alt="Ouvre le site officiel de La Sauce aux Jeux dans une nouvelle fenêtre ou un nouvel onglet"
               />
               {""} et retravaillée avec le logiciel GIMP.{" "}
@@ -322,7 +322,7 @@ function Credits() {
               </a>
               <img
                 className="icon"
-                src={"./src/assets/page_credits/icon_link_window.png"}
+                src={"/page_credits/icon_link_window.png"}
                 alt="Ouvre le site pixabay.com dans une nouvelle fenêtre ou un nouvel onglet"
               />
               .
@@ -358,7 +358,7 @@ function Credits() {
               </a>
               <img
                 className="icon"
-                src={"./src/assets/page_credits/icon_link_window.png"}
+                src={"/page_credits/icon_link_window.png"}
                 alt="Ouvre le site logos-world.net dans une nouvelle fenêtre ou un nouvel onglet"
               />
               .
@@ -420,7 +420,7 @@ function Credits() {
               </a>
               <img
                 className="icon"
-                src={"./src/assets/page_credits/icon_link_window.png"}
+                src={"/page_credits/icon_link_window.png"}
                 alt="Ouvre le site pexels.com dans une nouvelle fenêtre ou un nouvel onglet"
               />
               .
@@ -473,7 +473,7 @@ function Credits() {
           <div>
             <img
               className="coeur_credit"
-              src={"./src/assets/page_credits/coeur_credit.png"}
+              src={"/page_credits/coeur_credit.png"}
               alt="Coeur ombragé contenant deux cochons tenant un coeur entre leurs pattes, une cascade de dés et quatres meeples de couleurs bleu, jaune, rouge et vert."
             />
           </div>

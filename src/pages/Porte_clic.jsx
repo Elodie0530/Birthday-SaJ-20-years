@@ -29,7 +29,7 @@ function Porte_clic() {
       <div className="porte">
         <img
           className="img"
-          src={"./src/assets/page_entree_porte_clic/porte_entree.png"}
+          src={"/page_entree_porte_clic/porte_entree.png"}
           alt="Porte surplombée de Cthulu, cliquez sur le logo de la Sauce aux Jeux au centre pour entrer dans le site (ou patienter un peu vous serez rediriger automatiquement), il y a aussi un escalier avec 3 cochons dessus, sur les marches sont inscit 'Ithaque', 'Ludus Academie' et 'Maison des jeux'"
           onClick={handleRedirect}
           onTouchStart={handleTouchRedirect}

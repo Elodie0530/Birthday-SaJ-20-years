@@ -29,13 +29,13 @@ function Partenaires() {
           <div className="cochons">
             <div className="cochon_gauche">
               <img
-                src="./src/assets/page_partners/tete_cochon_gauche.png"
+                src="/page_partners/tete_cochon_gauche.png"
                 alt="Tête de cochon avec deux pattes oritenté à gauche"
               />
             </div>
             <div className="cochon_droite">
               <img
-                src="./src/assets/page_partners/tete_cochon_droite.png"
+                src="/page_partners/tete_cochon_droite.png"
                 alt="Tête de cochon avec deux pattes oritenté à droite"
               />
             </div>

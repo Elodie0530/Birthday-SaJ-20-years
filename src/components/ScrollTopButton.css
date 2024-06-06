@@ -8,7 +8,7 @@
 .button_scroll {
   width: 25px;
   height: 52px;
-  background-image: url("./src/assets/icon_arrow.png");
+  background-image: url("/icon_arrow.png");
   background-size: cover;
   background-color: transparent;
   border: none;

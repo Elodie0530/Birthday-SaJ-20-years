@@ -83,7 +83,7 @@
       display: inline-block;
       height: 35px;
       width: 40px;
-      background-image: url(../assets/page_partners/des20.png);
+      background-image: url(/page_partners/des20.png);
       background-size: contain;
       background-repeat: no-repeat;
       padding-left: 0.5rem;

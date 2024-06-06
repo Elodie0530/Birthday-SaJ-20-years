@@ -79,7 +79,7 @@
       display: inline-block;
       height: 50px;
       width: 50px;
-      background-image: url(../assets/page_night_white/logo_dnd.png);
+      background-image: url(/page_night_white/logo_dnd.png);
       background-size: contain;
       background-repeat: no-repeat;
       position: absolute;

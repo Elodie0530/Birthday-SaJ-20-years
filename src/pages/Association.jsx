@@ -20,7 +20,7 @@ function Asso() {
           <div className="livre20_droite">
             <img
               className="livre"
-              src={"./src/assets/page_association/droite_cochon_livre20.png"}
+              src={"/page_association/droite_cochon_livre20.png"}
               alt="Cochon orienté vers la gauche lisant un livre, sur la couverture du côté gauche il y a deux dés 6, sur la tranche est écrit 20 ans et du côté droit il y a un dé 20 de jdr"
             />
           </div>
@@ -69,7 +69,7 @@ function Asso() {
           <div className="nappe">
             <img
               className="nappe_oval"
-              src={"./src/assets/page_association/nappe.png"}
+              src={"/page_association/nappe.png"}
               alt="Nappe quadrillée rose et blanc"
             />
 
@@ -101,7 +101,7 @@ function Asso() {
             <figcaption>Ancien logo</figcaption>
 
             <img
-              src={"./src/assets/page_association/ancien_logo.png"}
+              src={"/page_association/ancien_logo.png"}
               alt="Ancien logo de La Sauce aux Jeux, représentant un cochon couché sur un échiquier tirant la langue, avec devant lui trois cartes à jouer ainsi qu'une console de jeu"
             />
           </figure>
@@ -179,7 +179,7 @@ function Asso() {
           <div className="livre20_gauche">
             <img
               className="livre"
-              src={"./src/assets/page_association/gauche_cochon_livre20.png"}
+              src={"/page_association/gauche_cochon_livre20.png"}
               alt="Cochon orienté vers la droite lisant un livre, sur la couverture du côté gauche il y a deux dés 6, sur la tranche est écrit 20 ans et du côté droit il y a un dé 20 de jdr"
             />
           </div>
